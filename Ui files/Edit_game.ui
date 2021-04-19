@@ -259,7 +259,7 @@ QScrollBar:vertical{
        <number>0</number>
       </property>
       <item>
-       <widget class="QWidget" name="tecla1" native="true">
+       <widget class="QWidget" name="key1" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -332,7 +332,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_1_nome">
+        <widget class="QLabel" name="key_1_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -422,7 +422,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla2" native="true">
+       <widget class="QWidget" name="key2" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -495,7 +495,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_2_nome">
+        <widget class="QLabel" name="key_2_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -585,7 +585,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla3" native="true">
+       <widget class="QWidget" name="key3" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -658,7 +658,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_3_nome">
+        <widget class="QLabel" name="key_3_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -748,7 +748,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla4" native="true">
+       <widget class="QWidget" name="key4" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -821,7 +821,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_4_nome">
+        <widget class="QLabel" name="key_4_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -911,7 +911,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla5" native="true">
+       <widget class="QWidget" name="key5" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -984,7 +984,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_5_nome">
+        <widget class="QLabel" name="key_5_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -1074,7 +1074,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla6" native="true">
+       <widget class="QWidget" name="key6" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -1147,7 +1147,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_6_nome">
+        <widget class="QLabel" name="key_6_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -1237,7 +1237,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla7" native="true">
+       <widget class="QWidget" name="key7" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -1310,7 +1310,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_7_nome">
+        <widget class="QLabel" name="key_7_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -1400,7 +1400,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla8" native="true">
+       <widget class="QWidget" name="key8" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -1473,7 +1473,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_8_nome">
+        <widget class="QLabel" name="key_8_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -1563,7 +1563,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla9" native="true">
+       <widget class="QWidget" name="key9" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -1636,7 +1636,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_9_nome">
+        <widget class="QLabel" name="key_9_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -1735,7 +1735,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla10" native="true">
+       <widget class="QWidget" name="key10" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -1808,7 +1808,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_10_nome">
+        <widget class="QLabel" name="key_10_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -1898,7 +1898,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla11" native="true">
+       <widget class="QWidget" name="key11" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -1971,7 +1971,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_11_nome">
+        <widget class="QLabel" name="key_11_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -2065,7 +2065,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla12" native="true">
+       <widget class="QWidget" name="key12" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -2138,7 +2138,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_12_nome">
+        <widget class="QLabel" name="key_12_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -2234,7 +2234,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla13" native="true">
+       <widget class="QWidget" name="key13" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -2307,7 +2307,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_13_nome">
+        <widget class="QLabel" name="key_13_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -2397,7 +2397,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla14" native="true">
+       <widget class="QWidget" name="key14" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -2470,7 +2470,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_14_nome">
+        <widget class="QLabel" name="key_14_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -2560,7 +2560,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla15" native="true">
+       <widget class="QWidget" name="key15" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -2633,7 +2633,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_15_nome">
+        <widget class="QLabel" name="key_15_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -2723,7 +2723,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla16" native="true">
+       <widget class="QWidget" name="key16" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -2796,7 +2796,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_16_nome">
+        <widget class="QLabel" name="key_16_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -2886,7 +2886,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla17" native="true">
+       <widget class="QWidget" name="key17" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -2959,7 +2959,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_17_nome">
+        <widget class="QLabel" name="key_17_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -3049,7 +3049,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla18" native="true">
+       <widget class="QWidget" name="key18" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -3122,7 +3122,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_18_nome">
+        <widget class="QLabel" name="key_18_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -3212,7 +3212,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla19" native="true">
+       <widget class="QWidget" name="key19" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -3285,7 +3285,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_19_nome">
+        <widget class="QLabel" name="key_19_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -3375,7 +3375,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla20" native="true">
+       <widget class="QWidget" name="key20" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -3448,7 +3448,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_20_nome">
+        <widget class="QLabel" name="key_20_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -3538,7 +3538,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla21" native="true">
+       <widget class="QWidget" name="key21" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -3611,7 +3611,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_21_nome">
+        <widget class="QLabel" name="key_21_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -3701,7 +3701,7 @@ QCheckBox::indicator:unchecked {
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="tecla22" native="true">
+       <widget class="QWidget" name="key22" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -3774,7 +3774,7 @@ border-color: black;</string>
           <number>16</number>
          </property>
         </widget>
-        <widget class="QLabel" name="tecla_22_nome">
+        <widget class="QLabel" name="key_22_name">
          <property name="geometry">
           <rect>
            <x>336</x>
@@ -4010,6 +4010,50 @@ border-left-width:0px;</string>
     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
    </property>
   </widget>
+  <widget class="QPushButton" name="menu_button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>610</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Berlin Sans FB</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Menu</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apply_button">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>610</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Berlin Sans FB</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+  </widget>
   <zorder>frame</zorder>
   <zorder>Title_Software</zorder>
   <zorder>name_title</zorder>
@@ -4017,6 +4061,8 @@ border-left-width:0px;</string>
   <zorder>comand_name</zorder>
   <zorder>keys_name</zorder>
   <zorder>keep_pressing</zorder>
+  <zorder>menu_button</zorder>
+  <zorder>apply_button</zorder>
  </widget>
  <resources/>
  <connections/>
