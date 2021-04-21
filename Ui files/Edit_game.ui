@@ -26,7 +26,7 @@
    </font>
   </property>
   <property name="cursor">
-   <cursorShape>PointingHandCursor</cursorShape>
+   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>Menu</string>
@@ -102,7 +102,7 @@ boder:none;</string>
      <x>40</x>
      <y>203</y>
      <width>781</width>
-     <height>381</height>
+     <height>391</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -187,7 +187,7 @@ background: none;
       <x>-1</x>
       <y>10</y>
       <width>781</width>
-      <height>361</height>
+      <height>371</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -228,7 +228,7 @@ QScrollBar:vertical{
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>-1279</y>
+       <y>-1269</y>
        <width>767</width>
        <height>1640</height>
       </rect>
@@ -379,32 +379,14 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  
+	  background-color:rgb(7, 113, 240)
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
 
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -542,32 +524,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+   background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -705,32 +667,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -868,32 +810,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1031,32 +953,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1194,32 +1096,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1357,32 +1239,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1520,32 +1382,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1660,11 +1502,14 @@ border-color: black;</string>
          <property name="text">
           <string/>
          </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
          <property name="pixmap">
           <pixmap>../Images/espace_Icon.png</pixmap>
          </property>
          <property name="scaledContents">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -1692,32 +1537,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+ background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1830,7 +1655,7 @@ border-width: 2px;
 border-color: black;</string>
          </property>
          <property name="text">
-          <string>CTRL</string>
+          <string>Ctrl</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -1855,32 +1680,13 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+   
+	background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -1999,6 +1805,9 @@ border-color: black;
          <property name="pixmap">
           <pixmap>../Images/shitf_icon.png</pixmap>
          </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
@@ -2022,32 +1831,12 @@ border-color: black;
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+	background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -2160,10 +1949,7 @@ border-width: 2px;
 border-color: black;</string>
          </property>
          <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap>../Images/tab.png</pixmap>
+          <string>Tab</string>
          </property>
          <property name="scaledContents">
           <bool>false</bool>
@@ -2191,32 +1977,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+ background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -2354,32 +2120,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -2517,32 +2263,13 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
 
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -2680,32 +2407,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -2843,32 +2550,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3006,32 +2693,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+ background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3169,32 +2836,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+   background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3332,32 +2979,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+   background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3495,32 +3122,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3658,32 +3265,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+   background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3821,32 +3408,12 @@ border-color: black;</string>
 }
 
 QCheckBox::indicator:checked {
-   background-color: rgb(255, 0, 0);
+  background-color: rgb(7, 113, 240);
 }
 QCheckBox::indicator:unchecked {
     background-color: rgb(255, 255, 255);
 }
-
-  QCheckBox::indicator:checked:hover
-  {
-    image: url(../Checkbox_checked_hovered.png);
-  }
-  QCheckBox::indicator:unchecked:hover
-  {
-    image: url(../Checkbox_unchecked_hovered.png);
-  }
-  QCheckBox::indicator:checked:pressed
-  {
-    image: url(../Checkbox_checked_pressed.png);
-  }
-  QCheckBox::indicator:unchecked:pressed
-  {
-    image: url(../Checkbox_unchecked_pressed.png);
-  }
-  QCheckBox::indicator:checked:disabled
-  {
-    image: url(../Checkbox_checked_disabled.png);
-  }</string>
+</string>
          </property>
          <property name="text">
           <string/>
@@ -3870,9 +3437,9 @@ QCheckBox::indicator:unchecked {
   <widget class="QLabel" name="name_title">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>30</x>
      <y>88</y>
-     <width>71</width>
+     <width>91</width>
      <height>51</height>
     </rect>
    </property>
@@ -3891,11 +3458,14 @@ border-bottom-left-radius: 7px;</string>
    <property name="text">
     <string>Nome:</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QLineEdit" name="game_name_area">
    <property name="geometry">
     <rect>
-     <x>110</x>
+     <x>120</x>
      <y>88</y>
      <width>411</width>
      <height>52</height>
@@ -3925,6 +3495,9 @@ border-bottom-left-radius: 7px;</string>
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
@@ -3942,7 +3515,7 @@ border-left-width:0px;</string>
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>150</y>
+     <y>162</y>
      <width>131</width>
      <height>41</height>
     </rect>
@@ -3964,7 +3537,7 @@ border-left-width:0px;</string>
    <property name="geometry">
     <rect>
      <x>370</x>
-     <y>150</y>
+     <y>162</y>
      <width>131</width>
      <height>41</height>
     </rect>
@@ -3989,7 +3562,7 @@ border-left-width:0px;</string>
    <property name="geometry">
     <rect>
      <x>560</x>
-     <y>150</y>
+     <y>162</y>
      <width>251</width>
      <height>41</height>
     </rect>
@@ -4015,7 +3588,7 @@ border-left-width:0px;</string>
     <rect>
      <x>30</x>
      <y>610</y>
-     <width>121</width>
+     <width>125</width>
      <height>51</height>
     </rect>
    </property>
@@ -4025,11 +3598,34 @@ border-left-width:0px;</string>
      <pointsize>16</pointsize>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
+    <string notr="true">QPushButton{
+    background-color: white;
+    border-style: outset;
+    border-radius: 10px;    
+    padding: 6px;
+}
+QPushButton:pressed {
+    
+	background-color: rgb(199, 199, 199);
+    border-style: inset;
+}</string>
    </property>
    <property name="text">
-    <string>Menu</string>
+    <string>  Voltar</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/left_arrow.png</normaloff>../Images/left_arrow.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="apply_button">
@@ -4037,7 +3633,7 @@ border-left-width:0px;</string>
     <rect>
      <x>740</x>
      <y>610</y>
-     <width>121</width>
+     <width>125</width>
      <height>51</height>
     </rect>
    </property>
@@ -4047,11 +3643,32 @@ border-left-width:0px;</string>
      <pointsize>16</pointsize>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
+    <string notr="true">QPushButton{
+    background-color: white;
+    border-style: outset;
+    border-radius: 10px;    
+    padding: 6px;
+}
+QPushButton:pressed {
+    
+	background-color: rgb(199, 199, 199);
+    border-style: inset;
+}
+
+</string>
    </property>
    <property name="text">
-    <string>Apply</string>
+    <string>Aplicar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>21</width>
+     <height>21</height>
+    </size>
    </property>
   </widget>
   <zorder>frame</zorder>

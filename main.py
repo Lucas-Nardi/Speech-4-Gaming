@@ -12,13 +12,16 @@ class Menu(QWidget):
     def __init__(self):
         super(Menu, self).__init__()
         self.load_ui()
+
     def load_ui(self):
         loader = QUiLoader()
-        path = os.path.join(os.path.dirname(__file__), "./Ui files/Edit_game.ui")
+        path = os.path.join(os.path.dirname(__file__), "./Ui files/Menu.ui")
         ui_file = QFile(path)
         ui_file.open(QFile.ReadOnly)
         loader.load(ui_file, self)
         ui_file.close()
+
+
 if __name__ == "__main__":
     app = QApplication([])
     widget = Menu()

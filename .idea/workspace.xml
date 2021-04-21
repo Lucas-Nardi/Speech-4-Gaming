@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26abd52d-da53-4483-8b74-7961e70aea11" name="Default Changelist" comment="" />
+    <list default="true" id="26abd52d-da53-4483-8b74-7961e70aea11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Speech 4 Gaming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ui files to py files/Menu_forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ui files/Edit_game.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Ui files/Edit_game.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ui files/Menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Ui files/Menu.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.pyproject.user" beforeDir="false" afterPath="$PROJECT_DIR$/main.pyproject.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rJqMioXlO36X1aGl6joKEsyHXp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +35,133 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TCC" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Games" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\Games" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\Qt_forms" />
+      <recent name="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\Ui files to py files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Speech 4 Gaming">
+    <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Speech_4_Play" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Screens" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Screens/Menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Speech 4 Gaming" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Speech_4_Play" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Speech 4 Gaming.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="edit_game_forms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Speech_4_Play" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_forms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_forms/edit_game_forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Speech_4_Play" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menu_forms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Speech_4_Play" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_forms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_forms/menu_forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Speech 4 Gaming" />
+        <item itemvalue="Python.edit_game_forms" />
+        <item itemvalue="Python.menu_forms" />
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.Menu" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,13 +189,48 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618939105688">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1618939105688" />
     <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1618836711289">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1618836711289" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1618836692944">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1619026504402">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1618836692944" />
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619026504402" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1619026504402">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619026504402" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1619026504402">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619026504402" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1619026504402">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619026504402" />
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1619012469396">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619012469396" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1619012549651">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619012549651" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
