@@ -228,7 +228,7 @@ QScrollBar:vertical{
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>-399</y>
+       <y>0</y>
        <width>767</width>
        <height>1640</height>
       </rect>
@@ -332,7 +332,13 @@ border-color: black;</string>
           <string>Frente/Reto</string>
          </property>
          <property name="maxLength">
-          <number>16</number>
+          <number>17</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
          </property>
         </widget>
         <widget class="QLabel" name="key_1_name">
@@ -482,6 +488,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_2_name">
          <property name="geometry">
@@ -624,6 +633,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_3_name">
@@ -768,6 +780,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_4_name">
          <property name="geometry">
@@ -896,6 +911,8 @@ QCheckBox::indicator:unchecked {
           <font>
            <family>Berlin Sans FB</family>
            <pointsize>20</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
           </font>
          </property>
          <property name="styleSheet">
@@ -908,8 +925,14 @@ border-color: black;</string>
          <property name="inputMask">
           <string notr="true"/>
          </property>
+         <property name="text">
+          <string>Correr/Voar</string>
+         </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_5_name">
@@ -1054,6 +1077,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_6_name">
          <property name="geometry">
@@ -1196,6 +1222,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_7_name">
@@ -1340,6 +1369,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_8_name">
          <property name="geometry">
@@ -1482,6 +1514,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_9_name">
@@ -1638,6 +1673,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_10_name">
          <property name="geometry">
@@ -1781,6 +1819,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_11_name">
@@ -1932,6 +1973,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_12_name">
          <property name="geometry">
@@ -2078,6 +2122,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_13_name">
          <property name="geometry">
@@ -2220,6 +2267,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_14_name">
@@ -2365,6 +2415,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_15_name">
          <property name="geometry">
@@ -2507,6 +2560,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_16_name">
@@ -2651,6 +2707,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_17_name">
          <property name="geometry">
@@ -2793,6 +2852,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_18_name">
@@ -2937,6 +2999,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_19_name">
          <property name="geometry">
@@ -3079,6 +3144,9 @@ border-color: black;</string>
          </property>
          <property name="maxLength">
           <number>16</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
         <widget class="QLabel" name="key_20_name">
@@ -3223,6 +3291,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_21_name">
          <property name="geometry">
@@ -3366,6 +3437,9 @@ border-color: black;</string>
          <property name="maxLength">
           <number>16</number>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
         </widget>
         <widget class="QLabel" name="key_22_name">
          <property name="geometry">
@@ -3443,7 +3517,7 @@ QCheckBox::indicator:unchecked {
   <widget class="QLabel" name="name_title">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>88</y>
      <width>91</width>
      <height>51</height>
@@ -3471,7 +3545,7 @@ border-bottom-left-radius: 7px;</string>
   <widget class="QLineEdit" name="game_name_area">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>110</x>
      <y>88</y>
      <width>411</width>
      <height>52</height>
@@ -3567,7 +3641,7 @@ border-left-width:0px;</string>
   <widget class="QLabel" name="keep_pressing">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>546</x>
      <y>162</y>
      <width>251</width>
      <height>41</height>
@@ -3677,6 +3751,223 @@ QPushButton:pressed {
     </size>
    </property>
   </widget>
+  <widget class="QFrame" name="repeated_commands">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>70</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* VERTIVAL SCROLL BAR*/
+QScrollBar:vertical{
+	boder: none;
+	width: 14px;
+	margin: 15px 0 15px 0;
+	border-radius:10px;
+	background-color: rgb(31, 125, 108);
+}
+
+/* HANDLE BAR VERTICAL */
+QScrollBar::handle:vertical {
+	border-radius:4px;
+	min-height:15px;
+	background-color: rgb(31, 79, 108);
+}
+
+/* BUTTON TOP - SCROLLBAR*/
+
+QScrollBar::sub-line:vertical{
+	border:none;	
+	background-color: rgb(255, 255, 255);
+	height: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	subcontrol-position:top;
+	subcontrol-origin: margin;
+	
+}
+
+
+
+/* BUTTON BOTTOM - SCROLLBAR*/
+
+QScrollBar::add-line:vertical{
+	border:none;	
+	background-color: rgb(255, 255, 255);
+	height: 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius:5px;
+	subcontrol-position:bottom;
+	subcontrol-origin: margin;
+}
+
+
+
+/* RESET ARROW */
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     
+	 background: none;
+}
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+}
+
+QScrollBar::sub-page:vertical {
+background: none;
+}
+
+QScrollBar::add-page:vertical {
+background: none;
+}
+
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <widget class="QScrollArea" name="scrollArea2">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>10</y>
+      <width>262</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* VERTIVAL SCROLL BAR*/
+QScrollBar:vertical{
+	
+	background-color: rgb(255, 55, 48);
+}
+
+
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>262</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <property name="rightMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="error_warning">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 55, 48);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhLowercaseOnly</set>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string> @@@@@@@@@@@@@@@ </string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
   <zorder>frame</zorder>
   <zorder>Title_Screen</zorder>
   <zorder>name_title</zorder>
@@ -3686,6 +3977,7 @@ QPushButton:pressed {
   <zorder>keep_pressing</zorder>
   <zorder>menu_button</zorder>
   <zorder>apply_button</zorder>
+  <zorder>repeated_commands</zorder>
  </widget>
  <resources/>
  <connections/>

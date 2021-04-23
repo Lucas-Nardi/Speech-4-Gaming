@@ -36,21 +36,17 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QWidget {	
-
+	 background-color: rgb(26, 65, 90); 
 	
-	background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.4 #13547a, stop: 0.8 #80d0c7);
-		
-
 }
 /*
 
-background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #13547a, stop: .5 #80d0c7);
+background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.4 #13547a, stop: 0.8 #80d0c7);
 	
 
 */
 
-/* background-color: rgb(26, 65, 90); */
+
 
 
 </string>
@@ -77,9 +73,9 @@ background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #13547a, 
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(19, 84, 122);
-color: rgb(255, 255, 255);
-boder:none;</string>
+    <string notr="true">color: rgb(255, 255, 255);
+boder:none;
+background-color: none</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::NoFrame</enum>
@@ -107,7 +103,7 @@ boder:none;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(19, 84, 122);
+    <string notr="true">background-color: None;
 border:none;
 border-width:0px;
 
@@ -137,7 +133,7 @@ border-width:0px;
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>189</y>
+     <y>175</y>
      <width>681</width>
      <height>451</height>
     </rect>
@@ -255,6 +251,9 @@ QScrollBar:vertical{
     <property name="lineWidth">
      <number>0</number>
     </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
     <property name="widgetResizable">
      <bool>true</bool>
     </property>
@@ -263,7 +262,7 @@ QScrollBar:vertical{
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>681</width>
+       <width>690</width>
        <height>77</height>
       </rect>
      </property>
@@ -287,7 +286,7 @@ QScrollBar:vertical{
        <number>10</number>
       </property>
       <property name="rightMargin">
-       <number>0</number>
+       <number>9</number>
       </property>
       <property name="bottomMargin">
        <number>0</number>
@@ -302,7 +301,7 @@ QScrollBar:vertical{
         </property>
         <property name="minimumSize">
          <size>
-          <width>681</width>
+          <width>655</width>
           <height>67</height>
          </size>
         </property>
@@ -424,11 +423,10 @@ border-radius:15px;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(19, 84, 122);
-border:none;
+    <string notr="true">border:none;
 border-width:0px;
 
-</string>
+background-color: none;</string>
    </property>
    <property name="text">
     <string notr="true"/>
@@ -447,10 +445,34 @@ border-width:0px;
     <bool>false</bool>
    </property>
   </widget>
+  <widget class="QLabel" name="games_number">
+   <property name="geometry">
+    <rect>
+     <x>112</x>
+     <y>80</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Berlin Sans FB</family>
+     <pointsize>23</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: None;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>1/10</string>
+   </property>
+  </widget>
   <zorder>frame</zorder>
   <zorder>Title_Software</zorder>
   <zorder>add_game_Button</zorder>
   <zorder>instructional_button</zorder>
+  <zorder>games_number</zorder>
  </widget>
  <resources/>
  <connections/>

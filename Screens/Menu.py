@@ -1,7 +1,7 @@
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QPushButton
 from PyQt5 import QtGui
-from Qt_forms.menu_forms import Ui_Menu
+from Qt_forms.menu_forms2 import Ui_Menu
 
 
 class Menu_Screen(QtWidgets.QWidget):
@@ -10,15 +10,19 @@ class Menu_Screen(QtWidgets.QWidget):
 
     which_game = None
 
+    total_games = 0
+
     def __init__(self):
         # call QWidget constructor
         super().__init__()
         self.ui = Ui_Menu()
         self.ui.setupUi(self)
 
+
         # Take each button that is on scrollArea and add click function
 
         i = 0
+        self.total_games = len(self.ui.scrollAreaWidgetContents.children())
 
         for QtWidgets in self.ui.scrollAreaWidgetContents.children():
 
@@ -64,17 +68,20 @@ class Menu_Screen(QtWidgets.QWidget):
 
 
         self.ui.instructional_button.clicked.connect(self.instructional)
-        self.ui.add_game_Button.clicked.connect(lambda: self.edit())
+        self.ui.add_game_Button.clicked.connect(lambda: self.new_game("New Game"))
 
+    def new_game(self,new_game):
+        if(self.total_games <10):
+            self.which_game = new_game
+            self.go_to_Edit.emit()
 
-    def edit(self,which_game="Novo Game"):
-        print("EDITANDO")
+    def edit(self,which_game="New Game"):
 
-        if(which_game != "Novo Game"):
+        if(which_game != "New Game"):
+
             game_name = self.ui.which_game[which_game]
             self.which_game = game_name
-        else:
-            print("CRIANDO UM NOVO GAME")
+
         self.go_to_Edit.emit()
 
     def play(self,which_game):

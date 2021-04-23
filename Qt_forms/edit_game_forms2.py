@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Edit_game.ui'
+# Form implementation generated from reading ui file 'Edit_game2.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.2
 #
@@ -60,7 +60,7 @@ class Ui_Edit(object):
         self.Title_Screen.setFrameShadow(QtWidgets.QFrame.Raised)
         self.Title_Screen.setLineWidth(0)
         self.Title_Screen.setAlignment(QtCore.Qt.AlignCenter)
-        self.Title_Screen.setObjectName("Title_Software")
+        self.Title_Screen.setObjectName("Title_Screen")
         self.frame = QtWidgets.QFrame(Menu)
         self.frame.setGeometry(QtCore.QRect(40, 203, 781, 391))
         self.frame.setStyleSheet("/* VERTIVAL SCROLL BAR*/\n"
@@ -198,7 +198,9 @@ class Ui_Edit(object):
 "border-width: 2px;\n"
 "border-color: black;")
         self.game_command1.setInputMask("")
-        self.game_command1.setMaxLength(16)
+        self.game_command1.setMaxLength(17)
+        self.game_command1.setAlignment(QtCore.Qt.AlignCenter)
+        self.game_command1.setReadOnly(False)
         self.game_command1.setObjectName("game_command1")
         self.key_1_name = QtWidgets.QLabel(self.key1)
         self.key_1_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -234,6 +236,7 @@ class Ui_Edit(object):
         self.checkBoxW.setText("")
         self.checkBoxW.setIconSize(QtCore.QSize(23, 28))
         self.checkBoxW.setCheckable(True)
+        self.checkBoxW.setChecked(True)
         self.checkBoxW.setObjectName("checkBoxW")
         self.verticalLayout_2.addWidget(self.key1)
         self.key2 = QtWidgets.QWidget(self.scrollAreaWidgetContents)
@@ -268,6 +271,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command2.setInputMask("")
         self.game_command2.setMaxLength(16)
+        self.game_command2.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command2.setObjectName("game_command2")
         self.key_2_name = QtWidgets.QLabel(self.key2)
         self.key_2_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -335,6 +339,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command3.setInputMask("")
         self.game_command3.setMaxLength(16)
+        self.game_command3.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command3.setObjectName("game_command3")
         self.key_3_name = QtWidgets.QLabel(self.key3)
         self.key_3_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -402,6 +407,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command4.setInputMask("")
         self.game_command4.setMaxLength(16)
+        self.game_command4.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command4.setObjectName("game_command4")
         self.key_4_name = QtWidgets.QLabel(self.key4)
         self.key_4_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -461,6 +467,8 @@ class Ui_Edit(object):
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(20)
+        font.setBold(False)
+        font.setWeight(50)
         self.game_command5.setFont(font)
         self.game_command5.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);\n"
@@ -469,6 +477,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command5.setInputMask("")
         self.game_command5.setMaxLength(16)
+        self.game_command5.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command5.setObjectName("game_command5")
         self.key_5_name = QtWidgets.QLabel(self.key5)
         self.key_5_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -536,6 +545,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command6.setInputMask("")
         self.game_command6.setMaxLength(16)
+        self.game_command6.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command6.setObjectName("game_command6")
         self.key_6_name = QtWidgets.QLabel(self.key6)
         self.key_6_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -603,6 +613,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command7.setInputMask("")
         self.game_command7.setMaxLength(16)
+        self.game_command7.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command7.setObjectName("game_command7")
         self.key_7_name = QtWidgets.QLabel(self.key7)
         self.key_7_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -670,6 +681,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command8.setInputMask("")
         self.game_command8.setMaxLength(16)
+        self.game_command8.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command8.setObjectName("game_command8")
         self.key_8_name = QtWidgets.QLabel(self.key8)
         self.key_8_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -737,6 +749,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command9.setInputMask("")
         self.game_command9.setMaxLength(16)
+        self.game_command9.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command9.setObjectName("game_command9")
         self.key_9_name = QtWidgets.QLabel(self.key9)
         self.key_9_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -750,7 +763,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.key_9_name.setText("")
         self.key_9_name.setTextFormat(QtCore.Qt.PlainText)
-        self.key_9_name.setPixmap(QtGui.QPixmap("Images/espace_Icon.png"))
+        self.key_9_name.setPixmap(QtGui.QPixmap("../Images/espace_Icon.png"))
         self.key_9_name.setScaledContents(True)
         self.key_9_name.setAlignment(QtCore.Qt.AlignCenter)
         self.key_9_name.setWordWrap(False)
@@ -809,6 +822,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command10.setInputMask("")
         self.game_command10.setMaxLength(16)
+        self.game_command10.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command10.setObjectName("game_command10")
         self.key_10_name = QtWidgets.QLabel(self.key10)
         self.key_10_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -877,6 +891,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command11.setInputMask("")
         self.game_command11.setMaxLength(16)
+        self.game_command11.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command11.setObjectName("game_command11")
         self.key_11_name = QtWidgets.QLabel(self.key11)
         self.key_11_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -890,7 +905,7 @@ class Ui_Edit(object):
 "border-color: black;\n"
 "")
         self.key_11_name.setText("")
-        self.key_11_name.setPixmap(QtGui.QPixmap("Images/shitf_icon.png"))
+        self.key_11_name.setPixmap(QtGui.QPixmap("../Images/shitf_icon.png"))
         self.key_11_name.setScaledContents(True)
         self.key_11_name.setAlignment(QtCore.Qt.AlignCenter)
         self.key_11_name.setObjectName("key_11_name")
@@ -948,6 +963,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command12.setInputMask("")
         self.game_command12.setMaxLength(16)
+        self.game_command12.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command12.setObjectName("game_command12")
         self.key_12_name = QtWidgets.QLabel(self.key12)
         self.key_12_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1016,6 +1032,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command13.setInputMask("")
         self.game_command13.setMaxLength(16)
+        self.game_command13.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command13.setObjectName("game_command13")
         self.key_13_name = QtWidgets.QLabel(self.key13)
         self.key_13_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1083,6 +1100,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command14.setInputMask("")
         self.game_command14.setMaxLength(16)
+        self.game_command14.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command14.setObjectName("game_command14")
         self.key_14_name = QtWidgets.QLabel(self.key14)
         self.key_14_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1151,6 +1169,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command15.setInputMask("")
         self.game_command15.setMaxLength(16)
+        self.game_command15.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command15.setObjectName("game_command15")
         self.key_15_name = QtWidgets.QLabel(self.key15)
         self.key_15_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1218,6 +1237,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command16.setInputMask("")
         self.game_command16.setMaxLength(16)
+        self.game_command16.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command16.setObjectName("game_command16")
         self.key_16_name = QtWidgets.QLabel(self.key16)
         self.key_16_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1285,6 +1305,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command17.setInputMask("")
         self.game_command17.setMaxLength(16)
+        self.game_command17.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command17.setObjectName("game_command17")
         self.key_17_name = QtWidgets.QLabel(self.key17)
         self.key_17_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1352,6 +1373,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command18.setInputMask("")
         self.game_command18.setMaxLength(16)
+        self.game_command18.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command18.setObjectName("game_command18")
         self.key_18_name = QtWidgets.QLabel(self.key18)
         self.key_18_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1419,6 +1441,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command19.setInputMask("")
         self.game_command19.setMaxLength(16)
+        self.game_command19.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command19.setObjectName("game_command19")
         self.key_19_name = QtWidgets.QLabel(self.key19)
         self.key_19_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1486,6 +1509,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command20.setInputMask("")
         self.game_command20.setMaxLength(16)
+        self.game_command20.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command20.setObjectName("game_command20")
         self.key_20_name = QtWidgets.QLabel(self.key20)
         self.key_20_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1553,6 +1577,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command21.setInputMask("")
         self.game_command21.setMaxLength(16)
+        self.game_command21.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command21.setObjectName("game_command21")
         self.key_21_name = QtWidgets.QLabel(self.key21)
         self.key_21_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1620,6 +1645,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.game_command22.setInputMask("")
         self.game_command22.setMaxLength(16)
+        self.game_command22.setAlignment(QtCore.Qt.AlignCenter)
         self.game_command22.setObjectName("game_command22")
         self.key_22_name = QtWidgets.QLabel(self.key22)
         self.key_22_name.setGeometry(QtCore.QRect(336, 6, 108, 43))
@@ -1657,7 +1683,7 @@ class Ui_Edit(object):
         self.verticalLayout_2.addWidget(self.key22)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.name_title = QtWidgets.QLabel(Menu)
-        self.name_title.setGeometry(QtCore.QRect(30, 88, 91, 51))
+        self.name_title.setGeometry(QtCore.QRect(20, 88, 91, 51))
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(18)
@@ -1669,7 +1695,7 @@ class Ui_Edit(object):
         self.name_title.setAlignment(QtCore.Qt.AlignCenter)
         self.name_title.setObjectName("name_title")
         self.game_name_area = QtWidgets.QLineEdit(Menu)
-        self.game_name_area.setGeometry(QtCore.QRect(120, 88, 411, 52))
+        self.game_name_area.setGeometry(QtCore.QRect(110, 88, 411, 52))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -1707,7 +1733,7 @@ class Ui_Edit(object):
         self.keys_name.setAlignment(QtCore.Qt.AlignCenter)
         self.keys_name.setObjectName("keys_name")
         self.keep_pressing = QtWidgets.QLabel(Menu)
-        self.keep_pressing.setGeometry(QtCore.QRect(560, 162, 251, 41))
+        self.keep_pressing.setGeometry(QtCore.QRect(546, 162, 251, 41))
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(23)
@@ -1734,7 +1760,7 @@ class Ui_Edit(object):
 "    border-style: inset;\n"
 "}")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Images/left_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../Images/left_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.menu_button.setIcon(icon)
         self.menu_button.setIconSize(QtCore.QSize(35, 35))
         self.menu_button.setObjectName("menu_button")
@@ -1760,6 +1786,115 @@ class Ui_Edit(object):
 "")
         self.apply_button.setIconSize(QtCore.QSize(21, 21))
         self.apply_button.setObjectName("apply_button")
+        self.repeated_commands = QtWidgets.QFrame(Menu)
+        self.repeated_commands.setGeometry(QtCore.QRect(550, 70, 261, 91))
+        self.repeated_commands.setStyleSheet("/* VERTIVAL SCROLL BAR*/\n"
+"QScrollBar:vertical{\n"
+"    boder: none;\n"
+"    width: 14px;\n"
+"    margin: 15px 0 15px 0;\n"
+"    border-radius:10px;\n"
+"    background-color: rgb(31, 125, 108);\n"
+"}\n"
+"\n"
+"/* HANDLE BAR VERTICAL */\n"
+"QScrollBar::handle:vertical {\n"
+"    border-radius:4px;\n"
+"    min-height:15px;\n"
+"    background-color: rgb(31, 79, 108);\n"
+"}\n"
+"\n"
+"/* BUTTON TOP - SCROLLBAR*/\n"
+"\n"
+"QScrollBar::sub-line:vertical{\n"
+"    border:none;    \n"
+"    background-color: rgb(255, 255, 255);\n"
+"    height: 15px;\n"
+"    border-top-left-radius: 5px;\n"
+"    border-top-right-radius:5px;\n"
+"    subcontrol-position:top;\n"
+"    subcontrol-origin: margin;\n"
+"    \n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"/* BUTTON BOTTOM - SCROLLBAR*/\n"
+"\n"
+"QScrollBar::add-line:vertical{\n"
+"    border:none;    \n"
+"    background-color: rgb(255, 255, 255);\n"
+"    height: 15px;\n"
+"    border-bottom-left-radius: 5px;\n"
+"    border-bottom-right-radius:5px;\n"
+"    subcontrol-position:bottom;\n"
+"    subcontrol-origin: margin;\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"/* RESET ARROW */\n"
+"\n"
+"QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {\n"
+"     \n"
+"     background: none;\n"
+"}\n"
+"\n"
+" QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {\n"
+"     background: none;\n"
+"}\n"
+"\n"
+"QScrollBar::sub-page:vertical {\n"
+"background: none;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:vertical {\n"
+"background: none;\n"
+"}\n"
+"\n"
+"")
+        self.repeated_commands.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.repeated_commands.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.repeated_commands.setLineWidth(0)
+        self.repeated_commands.setObjectName("repeated_commands")
+        self.scrollArea2 = QtWidgets.QScrollArea(self.repeated_commands)
+        self.scrollArea2.setGeometry(QtCore.QRect(-1, 10, 262, 81))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.scrollArea2.sizePolicy().hasHeightForWidth())
+        self.scrollArea2.setSizePolicy(sizePolicy)
+        self.scrollArea2.viewport().setProperty("cursor", QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.scrollArea2.setStyleSheet("/* VERTIVAL SCROLL BAR*/\n"
+"QScrollBar:vertical{\n"
+"    \n"
+"    background-color: rgb(255, 55, 48);\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"")
+        self.scrollArea2.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.scrollArea2.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.scrollArea2.setLineWidth(0)
+        self.scrollArea2.setWidgetResizable(True)
+        self.scrollArea2.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea2.setObjectName("scrollArea2")
+        self.scrollAreaWidgetContents2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents2.setGeometry(QtCore.QRect(0, 0, 262, 36))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.scrollAreaWidgetContents2.sizePolicy().hasHeightForWidth())
+        self.scrollAreaWidgetContents2.setSizePolicy(sizePolicy)
+        self.scrollAreaWidgetContents2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.scrollAreaWidgetContents2.setObjectName("scrollAreaWidgetContents2")
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents2)
+        self.verticalLayout_4.setContentsMargins(9, 6, 9, 0)
+        self.verticalLayout_4.setSpacing(12)
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+
+        self.scrollArea2.setWidget(self.scrollAreaWidgetContents2)
         self.frame.raise_()
         self.Title_Screen.raise_()
         self.name_title.raise_()
@@ -1769,6 +1904,7 @@ class Ui_Edit(object):
         self.keep_pressing.raise_()
         self.menu_button.raise_()
         self.apply_button.raise_()
+        self.repeated_commands.raise_()
 
         self.retranslateUi(Menu)
         QtCore.QMetaObject.connectSlotsByName(Menu)
@@ -1777,10 +1913,12 @@ class Ui_Edit(object):
         _translate = QtCore.QCoreApplication.translate
         Menu.setWindowTitle(_translate("Menu", "Menu"))
         self.Title_Screen.setText(_translate("Menu", "Configurações de jogo"))
+        self.game_command1.setText(_translate("Menu", "Frente/Reto"))
         self.key_1_name.setText(_translate("Menu", "W"))
         self.key_2_name.setText(_translate("Menu", "S"))
         self.key_3_name.setText(_translate("Menu", "A"))
         self.key_4_name.setText(_translate("Menu", "D"))
+        self.game_command5.setText(_translate("Menu", "Correr/Voar"))
         self.key_5_name.setText(_translate("Menu", "Q"))
         self.key_6_name.setText(_translate("Menu", "E"))
         self.key_7_name.setText(_translate("Menu", "R"))
@@ -1803,6 +1941,7 @@ class Ui_Edit(object):
         self.keep_pressing.setText(_translate("Menu", "Manter Pressionado"))
         self.menu_button.setText(_translate("Menu", "  Voltar"))
         self.apply_button.setText(_translate("Menu", "Aplicar"))
+
 
 
 if __name__ == "__main__":

@@ -1,15 +1,15 @@
 Command 1,Command 2,key,Press key
 corra,frente,W,yes
-corra,-,S,yes
-direita,-,A,yes
-esquerda,-,D,yes
+volte,atras,S,yes
+-,-,A,no
+-,-,D,no
 habilidade,-,Q,no
 trocar,-,E,no
 recarregar,-,R,no
--,-,T,no
-pular,espaco,,no
-xiu,silencio,Ctrl,no
-rapido,-,,no
+falar,time,T,yes
+pular,espaco,Espace,yes
+xiu,silencio,Ctrl,yes
+rapido,-,Shift,yes
 item,-,Tab,no
 -,-,Z,no
 -,-,X,no
@@ -18,6 +18,6 @@ item,-,Tab,no
 -,-,F,no
 arma,-,1,no
 -,-,2,no
--,-,3,no
--,-,4,no
--,-,5,no
+bola,-,3,yes
+arma,popo,4,no
+bicoitop,-,5,yes

@@ -2,9 +2,8 @@ import sys
 
 from Screens.Menu import Menu_Screen
 from Screens.Edit_Screem import EditScreen
-
 from PyQt5 import QtWidgets
-
+import threading
 
 # from Screens.Telaedition import Telaedition
 
@@ -54,7 +53,7 @@ class Controller:
 def main():
     app = QtWidgets.QApplication(sys.argv)
     controller = Controller()
-    controller.show_menu()
+    threading.Thread(target=controller.show_menu()).start()
     sys.exit(app.exec_())
 
 

@@ -1,0 +1,2 @@
+  
+python -m PyQt5.uic.pyuic -x file.ui -o fileName.py
