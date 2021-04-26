@@ -6,7 +6,8 @@ from PyQt5 import QtGui
 from Qt_forms.menu_forms3 import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
-from Speech_Recognition import voskAPI
+import webbrowser
+
 
 class Menu_Screen(QtWidgets.QWidget):
 
@@ -139,6 +140,14 @@ class Menu_Screen(QtWidgets.QWidget):
             play_button_component.setIconSize(QtCore.QSize(70, 70))
 
             game_name = self.ui.which_game[which_game]
+            name = game_name.split(".")
+            if(name[0] == "Super Mario Bros"):
+                # url = "https://supermarioemulator.com/supermario.php"
+                # chrome_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+                # webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
+                # webbrowser.get('chrome').open_new_tab(url)
+                os.system('start chrome "https://supermarioemulator.com/supermario.php" --kiosk')
+
             print(game_name)
             self.which_game_im_will_use = game_name
 
@@ -147,6 +156,10 @@ class Menu_Screen(QtWidgets.QWidget):
 
         else: # I need to stop the recognition and change the Icon
 
+            game_name = self.ui.which_game[which_game]
+            name = game_name.split(".")
+            # if (name[0] == "Super Mario Bros"):
+            #     os.system("taskkill /im chrome.exe /f")
             self.playing = False
             self.play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             play_button_component.setIcon(self.play_icon)
