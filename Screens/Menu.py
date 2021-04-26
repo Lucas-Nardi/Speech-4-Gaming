@@ -1,10 +1,12 @@
+import threading
+
 from PyQt5 import QtCore, QtWidgets
 from PyQt5 import QtGui
 #from Qt_forms.menu_forms2 import Ui_Menu
 from Qt_forms.menu_forms3 import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
-
+from Speech_Recognition import voskAPI
 
 class Menu_Screen(QtWidgets.QWidget):
 
@@ -19,14 +21,13 @@ class Menu_Screen(QtWidgets.QWidget):
 
     stop_playing_icon = QtGui.QIcon()
 
-
+    recogniton = voskAPI.Recognition()
 
     def __init__(self):
         # call QWidget constructor
         super().__init__()
         self.ui = Ui_Menu()
         self.ui.setupUi(self)
-        # speech_recognition = voskAPI()
 
         # Take each button that is on scrollArea and add click function
 
@@ -118,8 +119,6 @@ class Menu_Screen(QtWidgets.QWidget):
         if(self.total_games == 0):
             self.ui.which_game.clear()
 
-
-
     def edit(self,which_game="New Game"):
 
         if(which_game != "New Game"):
@@ -131,9 +130,6 @@ class Menu_Screen(QtWidgets.QWidget):
 
     def play(self,which_game,play_button_component):
 
-        print(play_button_component)
-        print(type(play_button_component))
-
         if(not self.playing): # I will play
 
 
@@ -142,9 +138,12 @@ class Menu_Screen(QtWidgets.QWidget):
             play_button_component.setIcon(self.stop_playing_icon)
             play_button_component.setIconSize(QtCore.QSize(70, 70))
 
-            # game_name = self.ui.which_game[which_game]
-            # self.which_game_im_will_use = game_name
-            # self.speech_recognition.voice_commands(game_name)
+            game_name = self.ui.which_game[which_game]
+            print(game_name)
+            self.which_game_im_will_use = game_name
+
+            threading.Thread(target=self.recogniton.voice_commands,args=(game_name,play_button_component,self)).start()
+
 
         else: # I need to stop the recognition and change the Icon
 
@@ -152,6 +151,9 @@ class Menu_Screen(QtWidgets.QWidget):
             self.play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             play_button_component.setIcon(self.play_icon)
             play_button_component.setIconSize(QtCore.QSize(50, 50))
+            self.recogniton.stop_recognition = True
+
+
 
         #toDo Mudar o icone do play para o quadrado e fazer a função de parar o programa ao clicar 2 vezes
 
