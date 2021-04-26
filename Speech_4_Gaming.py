@@ -24,7 +24,7 @@ class Controller:
             self.instruction.close()
 
         self.Menu.go_to_Edit.connect(lambda: self.show_edit_screen(self.Menu.which_game_im_will_use))
-        self.Menu.show()
+        threading.Thread(target=self.Menu.show()).start()
 
     def show_edit_screen(self,game_commands=None):
 
