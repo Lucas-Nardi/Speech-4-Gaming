@@ -22,7 +22,7 @@
   <property name="font">
    <font>
     <family>Berlin Sans FB</family>
-    <pointsize>49</pointsize>
+    <pointsize>53</pointsize>
    </font>
   </property>
   <property name="cursor">
@@ -3886,7 +3886,7 @@ QScrollBar:vertical{
        <x>0</x>
        <y>0</y>
        <width>262</width>
-       <height>36</height>
+       <height>16</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -3914,56 +3914,6 @@ QScrollBar:vertical{
       <property name="bottomMargin">
        <number>0</number>
       </property>
-      <item>
-       <widget class="QLabel" name="error_warning">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>30</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Berlin Sans FB</family>
-          <pointsize>12</pointsize>
-          <weight>50</weight>
-          <bold>false</bold>
-          <underline>false</underline>
-         </font>
-        </property>
-        <property name="mouseTracking">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 55, 48);
-color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="inputMethodHints">
-         <set>Qt::ImhLowercaseOnly</set>
-        </property>
-        <property name="lineWidth">
-         <number>0</number>
-        </property>
-        <property name="text">
-         <string> @@@@@@@@@@@@@@@ </string>
-        </property>
-        <property name="scaledContents">
-         <bool>false</bool>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
      </layout>
     </widget>
    </widget>

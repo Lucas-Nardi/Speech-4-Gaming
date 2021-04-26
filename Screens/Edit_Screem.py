@@ -170,7 +170,8 @@ class EditScreen(QtWidgets.QWidget):
 
                                 self.repeated_commands[which_command_im_in] = False
                                 commands_ui.setStyleSheet('background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: solid; border-width: 2px; border-color: black;')
-                        else:
+
+                        else: # This command already exist
 
                             if (which_command_im_in == 9):  # Space key
                                 file_data = commands + ",-,Space,"
@@ -210,16 +211,16 @@ class EditScreen(QtWidgets.QWidget):
                 self.file_data.append(file_data)
                 which_command_im_in = which_command_im_in + 1
 
+        self.save_changes_on_File(game_path)
+
     def save_changes_on_File(self,game_path):
 
-        print("INDO SALVAR OS DADOS NO ARQUIVO")
-        print(self.repeated_commands)
-
-        if(True in self.repeated_commands == False):  # Não tem nehum comando repetido
+        if( not True in self.repeated_commands):  # Não tem nehum comando repetido
 
             game_name = game_path.split(".")
             game_commands_file_path = "Games/" + self.ui.game_name_area.text() + ".csv"
             game_commands_file = open(game_commands_file_path, "w+")
+            print(game_commands_file_path)
 
             for line in self.file_data:
                 print(line)
@@ -227,8 +228,10 @@ class EditScreen(QtWidgets.QWidget):
 
             game_commands_file.close()
 
-            if (game_name[0] != self.ui.game_name_area.text()):  # The game name changed
-                os.rename(game_commands_file_path, game_commands_file_path)
+            if (os.path.exists(game_commands_file_path) and game_name[0] != self.ui.game_name_area.text()):  # The game name changed
+
+                original_path = "Games/" + game_path
+                os.remove(original_path)
 
     def fill_Screen(self, game_path):
 

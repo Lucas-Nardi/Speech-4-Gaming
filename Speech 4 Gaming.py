@@ -23,8 +23,7 @@ class Controller:
         if (self.instruction != None and self.instruction.isVisible()):
             self.instruction.close()
 
-        self.Menu.go_to_Edit.connect(lambda: self.show_edit_screen(self.Menu.which_game))
-        # self.Menu.exitScreen.connect(self.exit)
+        self.Menu.go_to_Edit.connect(lambda: self.show_edit_screen(self.Menu.which_game_im_will_use))
         self.Menu.show()
 
     def show_edit_screen(self,game_commands=None):
@@ -43,11 +42,6 @@ class Controller:
     # self.edition.initialScreen.connect(self.show_initial)
     # self.paint.close()
     # self.edition.show()
-
-    def exit(self):
-        if (self.initial != None and self.initial.isVisible()):
-            self.initial.close()
-            sys.exit()
 
 
 def main():

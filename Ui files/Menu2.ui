@@ -262,7 +262,7 @@ QScrollBar:vertical{
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>690</width>
+       <width>681</width>
        <height>77</height>
       </rect>
      </property>
@@ -323,7 +323,7 @@ border-radius:15px;</string>
           <rect>
            <x>18</x>
            <y>1</y>
-           <width>500</width>
+           <width>421</width>
            <height>61</height>
           </rect>
          </property>
@@ -358,7 +358,7 @@ border-radius:15px;</string>
         <widget class="QPushButton" name="edit_button1">
          <property name="geometry">
           <rect>
-           <x>520</x>
+           <x>528</x>
            <y>8</y>
            <width>51</width>
            <height>51</height>
@@ -399,6 +399,32 @@ border-radius:15px;</string>
          <property name="icon">
           <iconset>
            <normaloff>../Images/play_button.png</normaloff>../Images/play_button.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="edit_button1_2">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>8</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>OpenHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Images/edit_button.png</normaloff>../Images/edit_button.png</iconset>
          </property>
          <property name="iconSize">
           <size>

@@ -35,12 +35,8 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget {	
-
-	
+   <string notr="true">QWidget {
 	background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.4 #13547a, stop: 0.8 #80d0c7);
-		
-
 }
 /*
 
