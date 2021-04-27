@@ -1,5 +1,5 @@
 cffi==1.14.5
-PyAudio @ file:///C:/Users/Pichau/Documents/Qt%20Creator/Speech/PyAudio-0.2.11-cp38-cp38-win_amd64.whl
+PyAudio @ file:../pyAudio_file/PyAudio-0.2.11-cp38-cp38-win_amd64.whl
 pycparser==2.20
 pynput==1.7.3
 PyQt5==5.15.4

@@ -1,5 +1,5 @@
 Command 1,Command 2,key,Press key
-corra,frente,W,yes
+frente,corra,W,yes
 volte,atras,S,yes
 esquerda,-,A,yes
 direita,-,D,yes

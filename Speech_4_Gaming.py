@@ -2,10 +2,11 @@ import sys
 
 from Screens.Menu import Menu_Screen
 from Screens.Edit_Screem import EditScreen
+from Screens.Instruction_Screen import Instruction_Screen
 from PyQt5 import QtWidgets
 import threading
 
-# from Screens.Telaedition import Telaedition
+
 
 class Controller:
 
@@ -23,7 +24,8 @@ class Controller:
         if (self.instruction != None and self.instruction.isVisible()):
             self.instruction.close()
 
-        self.Menu.go_to_Edit.connect(lambda: self.show_edit_screen(self.Menu.which_game_im_will_use))
+        self.Menu.go_to_Edit.connect(lambda: self.show_edit_screen(self.Menu.which_game_i_will_use))
+        self.Menu.go_to_Instruction.connect(lambda: self.show_instruction())
         threading.Thread(target=self.Menu.show()).start()
 
     def show_edit_screen(self,game_commands=None):
@@ -36,12 +38,15 @@ class Controller:
         self.edit.go_to_Menu.connect(self.show_menu)
         self.edit.show()
 
-    # def show_instruction(self):
-    #   self.edition = Telaedition()
-    #  self.edition.voltando.connect(self.show_paint_screen)
-    # self.edition.initialScreen.connect(self.show_initial)
-    # self.paint.close()
-    # self.edition.show()
+    def show_instruction(self):
+
+        self.instruction = Instruction_Screen()
+
+        if (self.Menu != None and self.Menu.isVisible()):
+            self.Menu.close()
+
+        self.instruction.go_to_Menu.connect(self.show_menu)
+        self.instruction.show()
 
 
 def main():

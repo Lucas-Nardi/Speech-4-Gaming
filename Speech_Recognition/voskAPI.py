@@ -54,6 +54,7 @@ class Recognition:
                         self.commands_list_dicionary.__setitem__(command2,[key,need_to_press[0]])
 
 
+
             commands_file.close()
             recognized_commands = recognized_commands + "pare programa finalizar"
             model = Model("Speech_Recognition/Model/Portugues/model")
@@ -62,13 +63,14 @@ class Recognition:
             speech = ""
             prev_speech = "oioi"
             new_comand = 0
+            print(recognized_commands)
             recognized_commands = "\"erro " +recognized_commands + " fruta\""
 
             rec = KaldiRecognizer(model, 16000,recognized_commands)
 
             while (not self.stop_recognition):
 
-                data = self.stream.read(4000,exception_on_overflow = False)
+                data = self.stream.read(5000,exception_on_overflow = False)
                 if len(data) == 0:
                     break
                 if  (rec.AcceptWaveform(data)):
@@ -161,7 +163,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(key)
-                                time.sleep(0.500)
+                                time.sleep(0.300)
                                 self.keyboard.release(key)
 
                         new_comand = len(phrase)

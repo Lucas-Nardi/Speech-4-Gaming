@@ -7,9 +7,9 @@ habilidade,-,Q,no
 trocar,-,E,no
 recarregar,-,R,no
 -,-,T,no
-pular,espaco,,no
+pular,espaco,Space,no
 xiu,silencio,Ctrl,no
-rapido,-,,no
+rapido,-,Shift,no
 item,-,Tab,no
 -,-,Z,no
 -,-,X,no

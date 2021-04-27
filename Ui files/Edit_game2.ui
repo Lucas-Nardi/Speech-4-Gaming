@@ -3,7 +3,7 @@
  <class>Menu</class>
  <widget class="QWidget" name="Menu">
   <property name="windowModality">
-   <enum>Qt::ApplicationModal</enum>
+   <enum>Qt::NonModal</enum>
   </property>
   <property name="geometry">
    <rect>
@@ -3858,7 +3858,7 @@ background: none;
      <string notr="true">/* VERTIVAL SCROLL BAR*/
 QScrollBar:vertical{
 	
-	background-color: rgb(255, 55, 48);
+	background-color: rgb(255, 0, 0);
 }
 
 

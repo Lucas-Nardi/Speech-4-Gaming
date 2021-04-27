@@ -1,6 +1,6 @@
 import PyQt5
 from PyQt5 import QtCore, QtWidgets,QtGui
-from Qt_forms.edit_game_forms2 import Ui_Edit
+from Qt_forms.edit_game_forms import Ui_Edit
 import os
 import threading
 import time
@@ -31,8 +31,6 @@ class EditScreen(QtWidgets.QWidget):
 
 
     def error_message(self, repeated_command):
-
-        print("ERROR MESSAGE")
 
         _translate = QtCore.QCoreApplication.translate
 
@@ -74,7 +72,7 @@ class EditScreen(QtWidgets.QWidget):
 
             com = errors.pop(0)
             self.ui.verticalLayout_2.removeWidget(com)
-            print("--------------------------------------------------------")
+
 
 
         file_data = "Command 1,Command 2,key,Press key\n"
@@ -217,21 +215,27 @@ class EditScreen(QtWidgets.QWidget):
 
         if( not True in self.repeated_commands):  # Não tem nehum comando repetido
 
-            game_name = game_path.split(".")
+            if(game_path != "New Game"):
+
+                game_name = game_path.split(".")
+
             game_commands_file_path = "Games/" + self.ui.game_name_area.text() + ".csv"
             game_commands_file = open(game_commands_file_path, "w+")
+
             print(game_commands_file_path)
 
             for line in self.file_data:
-                print(line)
+
                 game_commands_file.write(line)
 
             game_commands_file.close()
 
-            if (os.path.exists(game_commands_file_path) and game_name[0] != self.ui.game_name_area.text()):  # The game name changed
+            if(game_path != "New Game"): # I am editing an exist game
 
-                original_path = "Games/" + game_path
-                os.remove(original_path)
+                if (os.path.exists(game_commands_file_path) and game_name[0] != self.ui.game_name_area.text()):  # The game name changed
+
+                    original_path = "Games/" + game_path
+                    os.remove(original_path)
 
     def fill_Screen(self, game_path):
 

@@ -3,26 +3,23 @@ import threading
 from PyQt5 import QtCore, QtWidgets
 from PyQt5 import QtGui
 #from Qt_forms.menu_forms2 import Ui_Menu
-from Qt_forms.menu_forms3 import Ui_Menu
+from Qt_forms.menu_forms import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
-import webbrowser
 
 
 class Menu_Screen(QtWidgets.QWidget):
 
     go_to_Edit = QtCore.pyqtSignal()
-    which_game_im_will_use = None
-    total_games = 0
-    components_to_delete = list()
-    play_button_component = list()
-    playing = False
-
-    play_icon = QtGui.QIcon()
-
-    stop_playing_icon = QtGui.QIcon()
-
-    recogniton = voskAPI.Recognition()
+    go_to_Instruction = QtCore.pyqtSignal()
+    which_game_i_will_use = None     # Variable that save which game i will use on edit screen
+    total_games = 0                   # Mark the number of games that i register right now
+    components_to_delete = list()     # mapping which game need to be delete after a certain delete button is clicked
+    play_button_component = list()    # mapping which game need to be play after a certain play button is clicked
+    playing = False                   # See the state of the play button
+    play_icon = QtGui.QIcon()         # Create a icon for play_button on state not playing
+    stop_playing_icon = QtGui.QIcon() # Create a icon for play_button on state playing
+    recogniton = voskAPI.Recognition() # Initialize speech recognition service
 
     def __init__(self):
         # call QWidget constructor
@@ -99,7 +96,7 @@ class Menu_Screen(QtWidgets.QWidget):
 
     def new_game(self,new_game):
         if(self.total_games <10):
-            self.which_game_im_will_use = new_game
+            self.which_game_i_will_use = new_game
             self.go_to_Edit.emit()
 
     def delete_game(self,game_to_delete,component):
@@ -125,7 +122,7 @@ class Menu_Screen(QtWidgets.QWidget):
         if(which_game != "New Game"):
 
             game_name = self.ui.which_game[which_game]
-            self.which_game_im_will_use = game_name
+            self.which_game_i_will_use = game_name
 
         self.go_to_Edit.emit()
 
@@ -142,33 +139,24 @@ class Menu_Screen(QtWidgets.QWidget):
             game_name = self.ui.which_game[which_game]
             name = game_name.split(".")
             if(name[0] == "Super Mario Bros"):
-                # url = "https://supermarioemulator.com/supermario.php"
-                # chrome_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-                # webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
-                # webbrowser.get('chrome').open_new_tab(url)
                 os.system('start chrome "https://supermarioemulator.com/supermario.php" --kiosk')
 
             print(game_name)
-            self.which_game_im_will_use = game_name
+            self.which_game_i_will_use = game_name
 
             threading.Thread(target=self.recogniton.voice_commands,args=(game_name,play_button_component,self)).start()
-
 
         else: # I need to stop the recognition and change the Icon
 
             game_name = self.ui.which_game[which_game]
             name = game_name.split(".")
-            # if (name[0] == "Super Mario Bros"):
-            #     os.system("taskkill /im chrome.exe /f")
+
             self.playing = False
             self.play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             play_button_component.setIcon(self.play_icon)
             play_button_component.setIconSize(QtCore.QSize(50, 50))
             self.recogniton.stop_recognition = True
 
-
-
-        #toDo Mudar o icone do play para o quadrado e fazer a função de parar o programa ao clicar 2 vezes
-
     def instructional(self):
         print("INSTRUÇÃO")
+        self.go_to_Instruction.emit()
