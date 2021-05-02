@@ -230,9 +230,9 @@ QScrollBar:vertical{
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>-516</y>
+       <y>0</y>
        <width>817</width>
-       <height>1553</height>
+       <height>2074</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -279,6 +279,31 @@ QScrollBar:vertical{
         </property>
         <property name="pixmap">
          <pixmap>../Images/Instrução_Slide_Menu.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="slide1_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>651</width>
+          <height>501</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../Images/Instrução_ReconhecimentoDeVoz_Slides.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
