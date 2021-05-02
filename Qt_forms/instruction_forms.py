@@ -82,7 +82,6 @@ class Ui_Instruction(object):
 "/* BUTTON TOP - SCROLLBAR*/\n"
 "\n"
 "QScrollBar::sub-line:vertical{\n"
-"    border:none;    \n"
 "    background-color: rgb(255, 255, 255);\n"
 "    height: 15px;\n"
 "    border-top-left-radius: 5px;\n"
@@ -95,7 +94,6 @@ class Ui_Instruction(object):
 "/* BUTTON BOTTOM - SCROLLBAR*/\n"
 "\n"
 "QScrollBar::add-line:vertical{\n"
-"    border:none;    \n"
 "    background-color: rgb(255, 255, 255);\n"
 "    height: 15px;\n"
 "    border-bottom-left-radius: 5px;\n"
@@ -155,7 +153,7 @@ class Ui_Instruction(object):
         self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, -516, 817, 1553))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 817, 2074))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -179,6 +177,18 @@ class Ui_Instruction(object):
         self.slide1.setScaledContents(True)
         self.slide1.setObjectName("slide1")
         self.verticalLayout_2.addWidget(self.slide1)
+        self.slide1_4 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Minimum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.slide1_4.sizePolicy().hasHeightForWidth())
+        self.slide1_4.setSizePolicy(sizePolicy)
+        self.slide1_4.setMinimumSize(QtCore.QSize(651, 501))
+        self.slide1_4.setText("")
+        self.slide1_4.setPixmap(QtGui.QPixmap("Images/Instrução_ReconhecimentoDeVoz_Slides.png"))
+        self.slide1_4.setScaledContents(True)
+        self.slide1_4.setObjectName("slide1_4")
+        self.verticalLayout_2.addWidget(self.slide1_4)
         self.slide1_2 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
@@ -213,14 +223,12 @@ class Ui_Instruction(object):
         self.menu_button.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.menu_button.setStyleSheet("QPushButton{\n"
 "    background-color: white;\n"
-"    border-style: outset;\n"
 "    border-radius: 10px;    \n"
 "    padding: 6px;\n"
 "}\n"
 "QPushButton:pressed {\n"
 "    \n"
 "    background-color: rgb(199, 199, 199);\n"
-"    border-style: inset;\n"
 "}")
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("Images/left_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -241,11 +249,3 @@ class Ui_Instruction(object):
         self.menu_button.setText(_translate("Menu", "  Voltar"))
 
 
-# if __name__ == "__main__":
-#     import sys
-#     app = QtWidgets.QApplication(sys.argv)
-#     Menu = QtWidgets.QWidget()
-#     ui = Ui_Instruction()
-#     ui.setupUi(Menu)
-#     Menu.show()
-#     sys.exit(app.exec_())
