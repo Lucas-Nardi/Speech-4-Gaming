@@ -40,11 +40,11 @@ This document is for the Speech 4 Gaming beta test
 ### Windows
 
 Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the iamge below.
-<img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center" height="120" width="200" />
+<img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
 
 On the execution file, click on button add python path as ypu can see on this next image
 
-<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Download Python on Windows" title="Download Python on Windows" align="center" height="200" width="200"/>
+<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Download Python on Windows" title="Download Python on Windows" align="center" height="400" width="400"/>
 
 After that, download the virtualenv package with 
 
