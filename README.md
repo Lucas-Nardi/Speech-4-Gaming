@@ -1,6 +1,4 @@
 
-
-
 Portugues Translation
 
 Speech 4 Gaming é um software que utiliza a tecnologia ASR para combater a falta de acessibilidade nos jogos na atualidade. 
@@ -27,7 +25,7 @@ This software uses the Vosk API to recognition the users'commands voices and wit
     - [Windows](#Windows)
     - [Linux](#Linux)
     - [Mac](#Mac)
-- [How to run](#How to run)
+- [How to run](#How-to-run)
     
 - [Page setup](#page-setup)
     - [Upload the page tree file](#upload-the-page-tree-file)
@@ -43,11 +41,17 @@ This document is for the Speech 4 Gaming beta test
 
 ### Windows
 
-Download the [python](https://www.python.org/downloads/) version 3.9. On the python website, go to latest version and download the 64x ou 32x  Then, download the virtualenv package with 
+Download the [python](https://www.python.org/downloads/windows/) version 3.9. On the python website, go to latest version and download the windows installer(64bit) or (32bit) and make sure to check the option add python to path. 
 
-`python -m pip install --user virtualenv`
+<img src="C:\Users\Pichau\Desktop\TCC Artigos\README_file\python_windows Installer.png" alt="Python Windows" title="Python Download" align="left" height="40" />
+
+After that, download the virtualenv package with 
+
+`python pip install virtualenv`
 
 If you having trouble installing this package please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
+
+Then, put this command line on terminal to criate a virtual enviroment
 
 ### Linux
 
@@ -57,9 +61,6 @@ If you having trouble installing this package please go to the virtualenv [websi
 `php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer`
 
 
-Then, install the Aimeos extension for TYPO3 with:
-
-`composer req aimeos/aimeos-typo3:~21.4`
 
 ### Mac Os
 
