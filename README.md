@@ -16,6 +16,8 @@ This software uses the Vosk API to recognition the users'commands voices and wit
 
 ### Speech 4 Gaming Menu Screen
 
+<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Speech 4 Gaming Menu" title="Speech 4 Gaming Menu" align="left" height="60" />
+
 ## Table of content
 
 - [Installation](#installation)
