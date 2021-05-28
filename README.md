@@ -51,9 +51,12 @@ After that, open the windows terminal terminal and use this code below to downlo
     
 `python pip install virtualenv`
 
-If you having trouble on the installation this package, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
+If you having trouble on the installation, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
 
-Then, put this command line on terminal to create a virtual enviroment
+Then, choose the directory that you want to put the Speech 4 Gaming Project and open it on the terminal to clone the project with this code below 
+    
+`git clone `    
+    put this command line on terminal to create a virtual enviroment
 
 `virtualenv env`
 
