@@ -10,7 +10,7 @@ Este software utiliza a tecnologia Vosk API para reconhecer os comandos de vozes
 
 :star: Star me on GitHub — it motivates me a lot!
 
-[Speech 4 Gaming](https://aimeos.org/TYPO3)Speech 4 Gaming is a software that use the ASR tecnologic to combat the lack of accessibility in games nowadays. 
+Speech 4 Gaming is a software that use the ASR tecnologic to combat the lack of accessibility in games nowadays. 
 This software uses the Vosk API to recognition the users'commands voices and with the result gave by Vosk API, simulate one of 
 22 key (q,w,e,r,a,s,d,f,g,z,x,c,v,ctrl,space,shift,tab,1,2,3,4 and 5). So with this software, the people who has physical impaired can play some computer video games..
 
