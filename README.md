@@ -76,7 +76,6 @@ If you having trouble installing this package please go to the virtualenv [websi
 `php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer`
 
 
-
 ### Mac Os
 
 
