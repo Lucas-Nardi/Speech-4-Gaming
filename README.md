@@ -5,9 +5,8 @@ Speech 4 Gaming é um software que utiliza a tecnologia ASR para combater a falt
 Este software utiliza a tecnologia Vosk API para reconhecer os comandos de vozes dos usuários e com o resultado dado pelo Vosk API, simular uma das 
 22 chave (q,w,e,r,a,s,d,f,g,z,x,c,v,ctrl,space,shift,tab,1,2,3,4 e 5). Assim, com este software, as pessoas com deficiência física podem jogar alguns jogos de vídeo para computador.
 
-<a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
-</a>
+<img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+
 
 ## Speech 4 Gaming
 
@@ -44,7 +43,7 @@ This document is for the Speech 4 Gaming beta test
 Download the [python](https://www.python.org/downloads/windows/) version 3.9. On the python website, go to latest version and download the windows installer(64bit) or (32bit) and make sure to check the option add python to path. 
 
 <img src="https://drive.google.com/file/d/1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu/view" alt="Python Windows" title="Python Download" align="left" height="40" />
-
+<img src="https://drive.google.com/file/d/1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu/view" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
 After that, download the virtualenv package with 
 
 `python pip install virtualenv`
