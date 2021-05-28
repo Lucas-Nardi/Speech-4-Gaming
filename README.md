@@ -4,15 +4,13 @@ Este software utiliza a tecnologia Vosk API para reconhecer os comandos de vozes
 22 chave (q,w,e,r,a,s,d,f,g,z,x,c,v,ctrl,space,shift,tab,1,2,3,4 e 5). Assim, com este software, as pessoas com deficiência física podem jogar alguns jogos de vídeo para computador.
 
 
-
-
 ## Speech 4 Gaming
 
 :star: Star me on GitHub — it motivates me a lot!
 
 Speech 4 Gaming is a software that use the ASR tecnologic to combat the lack of accessibility in games nowadays. 
 This software uses the Vosk API to recognition the users'commands voices and with the result gave by Vosk API, simulate one of 
-22 key (q,w,e,r,a,s,d,f,g,z,x,c,v,ctrl,space,shift,tab,1,2,3,4 and 5). So with this software, the people who has physical impaired can play some computer video games..
+22 key (q,w,e,r,a,s,d,f,g,z,x,c,v,ctrl,space,shift,tab,1,2,3,4 and 5). So with this software, the people who has physical impaired can play some computer video games.
 
 ### Speech 4 Gaming Menu Screen
 
@@ -39,7 +37,7 @@ This document is for the Speech 4 Gaming beta test
 
 ### Windows
 
-Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the iamge below.
+Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the image below.
 
 <img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
 
