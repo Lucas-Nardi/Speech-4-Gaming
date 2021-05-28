@@ -55,14 +55,15 @@ If you having trouble on the installation, please go to the virtualenv [website]
 
 Then, choose the directory that you want to put the Speech 4 Gaming Project and open it on the terminal to clone the project with this code below 
     
-`git clone `    
-    put this command line on terminal to create a virtual enviroment
-
+`git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech 4 Gaming`    
+    
+ After the download, use the code below to create a virtual enviroment   
+ 
 `virtualenv env`
 
-The next step is to activate the virtual enviroment created, to do this use this terminal code below.
+The next step is to activate the virtual enviroment created, to do this use this code below.
 
-`env\Scripts\activade.bat`
+`env\Scripts\activate.bat`
 
 Now, you will se the name (env) before your name on terminal line.
 
