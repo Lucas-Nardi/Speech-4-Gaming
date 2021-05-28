@@ -43,7 +43,7 @@ This document is for the Speech 4 Gaming beta test
 
 Download the [python](https://www.python.org/downloads/windows/) version 3.9. On the python website, go to latest version and download the windows installer(64bit) or (32bit) and make sure to check the option add python to path. 
 
-<img src="C:\Users\Pichau\Desktop\TCC Artigos\README_file\python_windows Installer.png" alt="Python Windows" title="Python Download" align="left" height="40" />
+<img src="https://drive.google.com/file/d/1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu/view?usp=sharing" alt="Python Windows" title="Python Download" align="left" height="40" />
 
 After that, download the virtualenv package with 
 
