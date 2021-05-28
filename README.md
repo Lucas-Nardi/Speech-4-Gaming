@@ -40,17 +40,20 @@ This document is for the Speech 4 Gaming beta test
 ### Windows
 
 Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the iamge below.
+
 <img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
 
-On the execution file, click on button add python path as ypu can see on this next image
+On the execution file, click on button add python <version> to path as you can see on this next image
 
-<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Download Python on Windows" title="Download Python on Windows" align="center" />
+<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Select Python to paht option" title="Select Python to paht option" align="center" />
 
-After that, download the virtualenv package with 
-
+After that, open the windows terminal terminal and use this code below to download the virtualenv package  
+   
+<img src="https://drive.google.com/uc?export=view&id=1S-6H2UWTARSjXJqCaSDEi7rKyT9ZHi3U " alt="Download Python on Windows" title="Download Python on Windows" align="center" />
+    
 `python pip install virtualenv`
 
-If you having trouble installing this package please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
+If you having trouble on the installation this package, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
 
 Then, put this command line on terminal to create a virtual enviroment
 
