@@ -44,7 +44,7 @@ Download the [python](https://www.python.org/downloads/windows/) lastest version
 
 On the execution file, click on button add python path as ypu can see on this next image
 
-<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Download Python on Windows" title="Download Python on Windows" align="center" height="400" width="400"/>
+<img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Download Python on Windows" title="Download Python on Windows" align="center" />
 
 After that, download the virtualenv package with 
 
