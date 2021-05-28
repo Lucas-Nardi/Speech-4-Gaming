@@ -50,7 +50,21 @@ After that, download the virtualenv package with
 
 If you having trouble installing this package please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
 
-Then, put this command line on terminal to criate a virtual enviroment
+Then, put this command line on terminal to create a virtual enviroment
+
+`virtualenv env`
+
+The next step is to activate the virtual enviroment created, to do this use this terminal code below.
+
+`env\Scripts\activade.bat`
+
+Now, you will se the name (env) before your name on terminal line.
+
+Finally, we will install all dependencies that the Speech 4 Gaming has using this code:
+
+`pip install -r requirements.txt (Python 2)`
+or
+`pip3 install -r requirements.txt (Python 3)`
 
 ### Linux
 
