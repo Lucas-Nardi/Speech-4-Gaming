@@ -73,6 +73,36 @@ Finally, we will install all dependencies that the Speech 4 Gaming has using thi
 or
 `pip3 install -r requirements.txt (Python 3)`
 
+       
+Afther this command, you will need to see which python version do you have, to do that use this code
+    
+    `python --version`
+    
+Knowing which python version do you have on your pc, use the next code to donwload the last necessary package named pyAudio. 
+    
+* OBS: If your python vesion is not one of this (3.9, 3.8, 3.7, 3.6, 3.5,3.4 or 2.7), please download one of then on the [website](https://www.python.org/downloads/windows/).
+    
+* If your python version is above 3.9 visit this [website](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) to download the last package named pyAudio. On this website choose the file acording to your python version (3.9, 3.8, 3.7, 3.6, 3.5,3.4 or 2.7) and the windows version bit (64bits, 32 bits).
+    
+if your python version is 3.9 use this code
+    
+    `pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl` for windows 64(bits) 
+    
+    or
+    
+     `pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl `( 32bits) 
+    
+if your python version is 3.8 use this code
+    
+    `pip install pyAudio_file/PyAudio-0.2.11-cp38-cp38-win_amd64.whl` for windows 64(bits) 
+    
+    or
+    
+     `pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl `( 32bits) 
+    
+ `python --version`    
+    
+    
 ### Linux
 
 `python -m pip install --user virtualenv`
