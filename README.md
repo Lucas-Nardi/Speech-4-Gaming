@@ -59,6 +59,8 @@ Then, choose the directory that you want to put the Speech 4 Gaming Project and 
     
  After the download, use the code below to create a virtual enviroment   
  
+ `Speech_4_Gaming`
+    
 `virtualenv env`
 
 The next step is to activate the virtual enviroment created, to do this use this code below.
@@ -70,7 +72,9 @@ Now, you will se the name (env) before the path name on terminal line.
 Finally, we will install all dependencies that the Speech 4 Gaming has using this code:
 
 `pip install -r requirements.txt (Python 2)`
+
 or
+
 `pip3 install -r requirements.txt (Python 3)`
 
        
