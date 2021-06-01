@@ -60,13 +60,15 @@ If you having trouble on the installation, please go to the virtualenv [website]
 
 Then, choose the directory that you want to put the Speech 4 Gaming Project and open it on the terminal to clone the project with this code below 
     
-`git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech_4_Gaming`    
     
- After the download, use the code below to create a virtual enviroment   
+     `git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech_4_Gaming`       
+    
+    
+ After the download, go to the directory created with the first code below and then, use the secode code to create a virtual enviroment   
  
- `Speech_4_Gaming`
+    `cd Speech_4_Gaming`
     
-`virtualenv env`
+    `virtualenv env`
 
 The next step is to activate the virtual enviroment created, to do this use this code below.
 
@@ -99,7 +101,7 @@ Example:
     
 if your python version is 3.9 use this code
     
-    `pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl` for windows 64(bits)` 
+     `pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl` for windows 64(bits) 
     
     or
     
