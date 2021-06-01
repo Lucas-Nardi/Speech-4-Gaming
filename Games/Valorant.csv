@@ -1,0 +1,23 @@
+Command 1,Command 2,key,Press key
+corra,-,W,yes
+volte,-,S,yes
+esquerda,-,A,yes
+direita,-,D,yes
+um,-,Q,yes
+dois,-,E,yes
+regarregar,-,R,yes
+-,-,T,no
+pule,-,Space,no
+agache,-,Ctrl,yes
+xiu,silencio,Shift,yes
+-,-,Tab,no
+-,-,Z,no
+especial,-,X,yes
+tres,-,C,yes
+-,-,V,no
+-,-,F,no
+arma,-,1,no
+pistola,-,2,no
+-,-,3,no
+bomba,-,4,no
+-,-,5,no
