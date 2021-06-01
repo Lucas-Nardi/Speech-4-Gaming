@@ -86,9 +86,11 @@ Knowing which python version do you have on your pc, use the next code to donwlo
     
 **Note1:** If your python vesion is not one of this (3.9, 3.8, 3.7, 3.6, 3.5,3.4 or 2.7), please download one of then on the [website](https://www.python.org/downloads/windows/).
     
-**Note2:** If your python version is above 3.9 visit this [website](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) to download the last package named pyAudio. On this website choose the file acording to your python version (3.9, 3.8, 3.7, 3.6, 3.5,3.4 or 2.7) and the windows version bit (64bits, 32 bits).
+**Note2:** If your python version is above 3.9 visit this [website](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) to download the last package named pyAudio. On this website choose the file acording to your python version and the windows SO system(64bits, 32 bits).
     
-    `pip install pyAudio_file/PyAudio-0.2.11-cp(Python version)-cp(Python version)-win_amd64.whl` for windows 64(bits)`
+    `pip install pyAudio_file/PyAudio-0.2.11-cp<Python version>-cp<Python version>-win_amd<SO System>.whl`
+ 
+Example:
     
 if your python version is 3.9 use this code
     
@@ -96,7 +98,7 @@ if your python version is 3.9 use this code
     
     or
     
-     `pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl `( 32bits)` 
+     `pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl ` for windows ( 32bits)` 
     
 if your python version is 3.8 use this code
     
@@ -104,9 +106,8 @@ if your python version is 3.8 use this code
     
     or
     
-     `pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl `( 32bits) `
-    
- `python --version`    
+     `pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl ` for windows( 32bits) `    
+ 
     
     
 ### Linux
@@ -122,11 +123,9 @@ If you having trouble installing this package please go to the virtualenv [websi
 
 ### How to run
 
-* Log into the TYPO3 back end
-* Click on ''Admin Tools::Extension Manager'' in the left navigation
-* Click the icon with the little plus sign left from the Aimeos list entry (looks like a lego brick)
-
-![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
+If you are on the directory named Speech_4_Gaming just use this code below
+    
+    `python Speech_4_Gaming.py`
 
 ## License
 
