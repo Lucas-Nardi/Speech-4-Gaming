@@ -132,7 +132,7 @@ class Menu_Screen(QtWidgets.QWidget):
 
 
             self.playing = True
-            self.stop_playing_icon.addPixmap(QtGui.QPixmap("Images/stop_playing_icon.png"), QtGui.QIcon.Normal,QtGui.QIcon.Off)
+            self.stop_playing_icon.addPixmap(QtGui.QPixmap("Images/stop_playing_icon.png"), QtGui.QIcon.Normal)
             play_button_component.setIcon(self.stop_playing_icon)
             play_button_component.setIconSize(QtCore.QSize(70, 70))
 
@@ -141,7 +141,6 @@ class Menu_Screen(QtWidgets.QWidget):
             if(name[0] == "Super Mario Bros"):
                 os.system('start chrome "https://supermarioemulator.com/supermario.php" --kiosk')
 
-            print(game_name)
             self.which_game_i_will_use = game_name
 
             threading.Thread(target=self.recogniton.voice_commands,args=(game_name,play_button_component,self)).start()
@@ -152,11 +151,10 @@ class Menu_Screen(QtWidgets.QWidget):
             name = game_name.split(".")
 
             self.playing = False
-            self.play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            self.play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal)
             play_button_component.setIcon(self.play_icon)
             play_button_component.setIconSize(QtCore.QSize(50, 50))
             self.recogniton.stop_recognition = True
 
-    def instructional(self):
-        print("INSTRUÇÃO")
+    def instructional(self):        
         self.go_to_Instruction.emit()
