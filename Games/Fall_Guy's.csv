@@ -1,0 +1,23 @@
+Command 1,Command 2,key,Press key
+frente,corra,W,yes
+volte,atras,S,yes
+esquerda,-,A,yes
+direita,-,D,yes
+-,-,Q,no
+-,-,E,no
+-,-,R,no
+-,-,T,no
+pule,espaco,Space,no
+barriga,-,Ctrl,no
+atire,-,Shift,no
+-,-,Tab,no
+-,-,Z,no
+-,-,X,no
+-,-,C,no
+-,-,V,no
+-,-,F,no
+um,-,1,no
+dois,-,2,no
+tres,-,3,no
+quatro,-,4,no
+-,-,5,no
