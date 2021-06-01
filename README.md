@@ -64,25 +64,27 @@ Then, choose the directory that you want to put the Speech 4 Gaming Project and 
      `git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech_4_Gaming`       
     
     
- After the download, go to the directory created with the first code below and then, use the secode code to create a virtual enviroment   
+ After the download, go to the directory created with the code below  
  
     `cd Speech_4_Gaming`
+    
+ then, use this next code to create a virtual enviroment  
     
     `virtualenv env`
 
 The next step is to activate the virtual enviroment created, to do this use this code below.
 
-`env\Scripts\activate.bat`
+    `env\Scripts\activate.bat`
 
 Now, you will se the name (env) before the path name on terminal line.
 
 Finally, we will install all dependencies that the Speech 4 Gaming has using this code:
 
-`pip install -r requirements.txt (Python 2)`
+    `pip install -r requirements.txt (Python 2)`
 
 or
 
-`pip3 install -r requirements.txt (Python 3)`
+    `pip3 install -r requirements.txt (Python 3)`
 
        
 Afther this command, you will need to see which python version do you have, to do that use this code
