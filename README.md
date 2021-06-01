@@ -95,7 +95,7 @@ Knowing which python version do you have on your pc, use the next code to donwlo
     
 **Note1:** If your python vesion is not one of this (3.9, 3.8, 3.7, 3.6, 3.5,3.4 or 2.7), please download one of then on the [website](https://www.python.org/downloads/windows/).
     
-**Note2:** If your python version is above 3.9 visit this [website](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) to download the last package named pyAudio. On this website choose the file acording to your python version and the windows SO system(64bits, 32 bits).
+**Note2:** If your python version is above 3.9, visit this [website](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) to download the last package named pyAudio. On this website choose the file acording to your python version and the windows SO system(64bits, 32 bits).
     
     `pip install pyAudio_file/PyAudio-0.2.11-cp<Python version>-cp<Python version>-win_amd<SO System>.whl`
  
