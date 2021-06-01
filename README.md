@@ -66,30 +66,30 @@ Then, choose the directory that you want to put the Speech 4 Gaming Project and 
     
  After the download, go to the directory created with the code below  
  
-    `cd Speech_4_Gaming`
+    cd Speech_4_Gaming
     
  then, use this next code to create a virtual enviroment  
     
-    `virtualenv env`
+    virtualenv env
 
 The next step is to activate the virtual enviroment created, to do this use this code below.
 
-    `env\Scripts\activate.bat`
+    env\Scripts\activate.bat
 
 Now, you will se the name (env) before the path name on terminal line.
 
 Finally, we will install all dependencies that the Speech 4 Gaming has using this code:
 
-    `pip install -r requirements.txt (Python 2)`
+    pip install -r requirements.txt (Python 2)
 
 or
 
-    `pip3 install -r requirements.txt (Python 3)`
+    pip3 install -r requirements.txt (Python 3)
 
        
 Afther this command, you will need to see which python version do you have, to do that use this code
     
-    `python --version`
+    python --version
     
 Knowing which python version do you have on your pc, use the next code to donwload the last necessary package named pyAudio. 
     
@@ -97,34 +97,49 @@ Knowing which python version do you have on your pc, use the next code to donwlo
     
 **Note2:** If your python version is above 3.9, visit this [website](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) to download the last package named pyAudio. On this website choose the file acording to your python version and the windows SO system(64bits, 32 bits).
     
-    `pip install pyAudio_file/PyAudio-0.2.11-cp<Python version>-cp<Python version>-win_amd<SO System>.whl`
+    pip install pyAudio_file/PyAudio-0.2.11-cp<Python version>-cp<Python version>-win_amd<SO System>.whl
  
 Example:
     
 if your python version is 3.9 use this code
     
-     `pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl` for windows 64(bits) 
+     pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl` for windows 64(bits) 
     
     or
     
-     `pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl ` for windows ( 32bits)` 
+     pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl ` for windows ( 32bits) 
     
 if your python version is 3.8 use this code
     
-    `pip install pyAudio_file/PyAudio-0.2.11-cp38-cp38-win_amd64.whl` for windows 64(bits)` 
+    pip install pyAudio_file/PyAudio-0.2.11-cp38-cp38-win_amd64.whl` for windows 64(bits)
     
     or
     
-     `pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl ` for windows( 32bits) `    
+     pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl ` for windows( 32bits) `    
  
     
     
 ### Linux
+    
+First we need to install python, to do that use this 3 codes below.
+    
+    sudo apt-get update
+    
+    sudo apt -y upgrade
+    
+    sudo apt install -y python3-pip
+    
+Next, we need to create a virtual enviroment, to do that we will install the python package named virtualenv
+    
+    sudo apt install -y python3-venv
+    
+    mkdir environments
+    cd environments
+    
+    source my_env/bin/activate
 
-`python -m pip install --user virtualenv`
 
-If you having trouble installing this package please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
-`php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer`
+
 
 
 ### Mac Os
