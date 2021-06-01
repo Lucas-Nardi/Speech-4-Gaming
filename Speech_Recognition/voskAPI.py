@@ -58,19 +58,19 @@ class Recognition:
             commands_file.close()
             recognized_commands = recognized_commands + "pare programa finalizar"
             model = Model("Speech_Recognition/Model/Portugues/model")
-            self.stream = self.p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
+            self.stream = self.p.open(format=pyaudio.paInt16, channels=1, rate=48000, input=True, frames_per_buffer=24000)
             self.stream.start_stream()
             speech = ""
-            prev_speech = "oioi"
+            prev_speech = ""
             new_comand = 0
-            print(recognized_commands)
-            recognized_commands = "\"erro " +recognized_commands + " fruta\""
 
-            rec = KaldiRecognizer(model, 16000,recognized_commands)
+            recognized_commands = "\"hum " +recognized_commands + " " +" uh\""
+            print(recognized_commands)
+            rec = KaldiRecognizer(model, 48000,recognized_commands)
 
             while (not self.stop_recognition):
 
-                data = self.stream.read(5000,exception_on_overflow = False)
+                data = self.stream.read(24000,exception_on_overflow = False)
                 if len(data) == 0:
                     break
                 if  (rec.AcceptWaveform(data)):
@@ -106,7 +106,7 @@ class Recognition:
                         elif(key == "shift"):
                             if (press_key == "yes"):
                                 self.keyboard.press(Key.shift)
-                                self.self.pressed_keys_list.append(key)
+                                self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.shift)
                                 time.sleep(0.500)
@@ -163,7 +163,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(key)
-                                time.sleep(0.300)
+                                time.sleep(0.200)
                                 self.keyboard.release(key)
 
                         new_comand = len(phrase)
@@ -171,19 +171,8 @@ class Recognition:
 
                     elif(speech == "pare"):  # Release all keys that was pressed
 
-                        for key in self.pressed_keys_list:
-
-                            if (key == "space"):
-                                self.keyboard.release(Key.space)
-                            elif (key == "shift"):
-                                self.keyboard.release(Key.shift)
-                            elif (key == "ctrl"):
-                                self.keyboard.release(Key.ctrl)
-                            elif (key == "tab"):
-                                self.keyboard.release(Key.tab)
-                            else:
-                                self.keyboard.release(key)
-
+                        self.unPressKeys(self.pressed_keys_list)
+                                                
                         new_comand = len(phrase)
                         prev_speech = speech
 
@@ -195,10 +184,26 @@ class Recognition:
                     if(prev_speech == "finalizar" and speech == "programa"):
                         self.stop_recognition = True
 
-            self.exit(buttom_component,menu_class)
+            self.exit(buttom_component,menu_class,self.pressed_keys_list)
 
-    def exit(self,buttom_component,menu_class):
+    def unPressKeys(self,pressed_keys_list):
+        for key in pressed_keys_list:
+    
+            if (key == "space"):
+                self.keyboard.release(Key.space)
+            elif (key == "shift"):
+                self.keyboard.release(Key.shift)
+            elif (key == "ctrl"):
+                self.keyboard.release(Key.ctrl)
+            elif (key == "tab"):
+                self.keyboard.release(Key.tab)
+            else:
+                self.keyboard.release(key)
 
+    def exit(self,buttom_component,menu_class,pressed_keys_list):
+        
+        self.unPressKeys(self.pressed_keys_list)
+        
         play_icon = QtGui.QIcon()
         play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         buttom_component.setIcon(play_icon)
