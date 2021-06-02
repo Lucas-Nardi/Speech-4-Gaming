@@ -78,7 +78,7 @@ The next step is to activate the virtual enviroment created, to do this use this
 
 Now, you will se the name (env) before the path name on terminal line.
 
-Finally, we will install all dependencies that the Speech 4 Gaming has using this code:
+Finally, we will install all dependencies that the Speech 4 Gaming uses with this code:
 
     pip install -r requirements.txt (Python 2)
 
@@ -103,19 +103,19 @@ Example:
     
 if your python version is 3.9 use this code
     
-     pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl` for windows 64(bits) 
+     pip install pyAudio_file/PyAudio-0.2.11-cp39-cp39-win_amd64.whl for windows 64(bits) 
     
     or
     
-     pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl ` for windows ( 32bits) 
+     pip install pyAudio_file/PyAudio‑0.2.11‑cp39‑cp39‑win32.whl  for windows ( 32bits) 
     
 if your python version is 3.8 use this code
     
-    pip install pyAudio_file/PyAudio-0.2.11-cp38-cp38-win_amd64.whl` for windows 64(bits)
+    pip install pyAudio_file/PyAudio-0.2.11-cp38-cp38-win_amd64.whl for windows 64(bits)
     
     or
     
-     pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl ` for windows( 32bits) `    
+     pip install pyAudio_file/PyAudio‑0.2.11‑cp38‑cp38‑win32.whl  for windows( 32bits)     
  
     
     
@@ -133,15 +133,39 @@ Next, we need to create a virtual enviroment, to do that we will install the pyt
     
     sudo apt install -y python3-venv
     
-    mkdir environments
-    cd environments
+Then, we will clone the Speech 4 Gaming project with this code below
     
-    source my_env/bin/activate
+    git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech_4_Gaming 
+ 
+ After the Speech 4 Gaming Cloning, enteder to the project directory we this next code
+    
+    cd Speech_4_Gaming
+ 
+ Now, we will create the virtual enviroment and activate it using this 2 codes
+    
+    python3 -m venv env
+    
+    source env/bin/activate
 
+To see with the virtual enviroment is activate, just look at you terminal line and see if the name env appears before your pc name, like this example below
 
+    (env)lucas@ubunto:~/Speech_4_Gaming$
+    
+The next step is to install all the dependencies that the Speech 4 Gaming uses with this code:
 
+    pip install -r requirements.txt (Python 2)
 
+or
 
+    pip3 install -r requirements.txt (Python 3)
+    
+
+Finally, we will install the last package named pyAudio, to do that use this 2 codes
+    
+    pip install pipwin
+    
+    pipwin install pyaudio
+    
 ### Mac Os
 
 
