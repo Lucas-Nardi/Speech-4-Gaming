@@ -227,7 +227,7 @@ To deactivate the virtual enviroment just use the next code
     
     deactivate
     
-**Important!:** If you deactivate the virtual enviroment , you will need to active it to run the Speech 4 Gaming again
+**Important!** If you deactivate the virtual enviroment , you will need to active it to run the Speech 4 Gaming again
  
 ***Note1** Code to activate the virtual enviroment on Linux and Mac OS X
     
