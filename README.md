@@ -17,21 +17,13 @@ This software uses the Vosk API to recognition the users'commands voices and wit
 
 ## Table of content
 
-- [Installation](#installation)
+- [How to Install and Run](#How to Install and Run)
     - [Windows](#Windows)
     - [Linux](#Linux)
     - [Mac](#Mac)
-- [How to run](#How-to-run)
     
-- [Page setup](#page-setup)
-    - [Upload the page tree file](#upload-the-page-tree-file)
-    - [Go to the import view](#go-to-the-import-view)
-    - [Import the page tree](#import-the-page-tree)
-    - [SEO-friendly URLs](#seo-friendly-urls)
-- [License](#license)
-- [Links](#links)
 
-## Installation
+## How to Install and Run
 
 This document is for the Speech 4 Gaming beta test  
 
@@ -76,7 +68,7 @@ The next step is to activate the virtual enviroment created, to do this use this
 
     env\Scripts\activate.bat
 
-Now, you will se the name (env) before the path name on terminal line.
+Now, you will see the name (env) before your pc name on terminal line.
 
 Finally, we will install all dependencies that the Speech 4 Gaming uses with this code:
     
@@ -175,26 +167,62 @@ Download the [python](https://www.python.org/downloads/mac-osx) lastest version 
 
 On the execution file, click on button add python <version> to path as you can see on this next image.
     
+After that, we will update the pip with this code below
+    
+    pip3 install pip --upgrade
+    
+Then, we need to install a package named virutalenv, to do that use this next code
+    
+    pip install virtualenv
+    
+After the virutalenv installation, we need to download the Speech 4 Gaming softare, to do that use this code      
+    
+    git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech_4_Gaming           
+    
+ When the download finished, go to the directory created with the code below  
+ 
+    cd Speech_4_Gaming
+    
+ then, use this next code to create a virtual enviroment  
+    
+    virtualenv env
+
+The next step is to activate the virtual enviroment created, to do this use this code below.
+
+    source env/bin/activate
+
+Now, you will see the name (env) before your pc name name on terminal line.
+
+Finally, we will install all dependencies that the Speech 4 Gaming uses with this code:
+    
+
+    pip install -r requirements.txt (Python 2)
+
+or
+
+    pip3 install -r requirements.txt (Python 3)
+    
+
+Finally, we will install the last package named pyAudio, to do that use this 2 codes
+    
+    pip install pipwin
+    
+    pipwin install pyaudio
+    
+### Run and Stop
+    
+To run the Speech 4 Gaming in all 3 SO System use this code below    
+      
+   python Speech 4 Gaming.py
+ 
+To stop the Speech 4 Gaming just click on the exit button like the image below
+    
+ <img src="https://drive.google.com/uc?export=view&id=140zOJpwPP2ZztS3I57eKocPQb-n3qI88" alt="Download Python on Windows" title="Download Python on Windows" align="center" />
+    
+To deactivate the virtual enviroment just use the next code
+    
+    deactivate
+ 
+ 
     
     
-### How to run
-
-If you are on the directory named Speech_4_Gaming just use this code below
-    
-    `python Speech_4_Gaming.py`
-
-## License
-
-The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
-license and is available for free.
-
-## Links
-
-* [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
-* [Documentation](https://aimeos.org/docs/TYPO3)
-* [Forum](https://aimeos.org/help/typo3-extension-f16/)
-* [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-* [Source code](https://github.com/aimeos/aimeos-typo3)
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
