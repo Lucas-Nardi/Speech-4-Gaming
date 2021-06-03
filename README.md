@@ -226,7 +226,17 @@ To stop the Speech 4 Gaming just click on the exit button like the image below
 To deactivate the virtual enviroment just use the next code
     
     deactivate
+    
+**Note1:** If you deactivate the virtual enviroment , you will need to active it to run the Speech 4 Gaming again
  
+**Note2:** Code to activate the virtual enviroment on Linux and Mac OS X
+    
+    source env/bin/activate
+    
+    
+ **Note3:** Code to activate the virtual enviroment on Windows
+    
  
+    env\Scripts\activate.bat
     
     
