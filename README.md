@@ -33,12 +33,13 @@ Download the [python](https://www.python.org/downloads/windows/) lastest version
 
 <img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
 
+<br/>
 On the execution file, click on button add python <version> to path as you can see on this next image
     
 
 <img src="https://drive.google.com/uc?export=view&id=1mqDiaYM5B7jW8ooyjuDkvhsAVoGzdzRu" alt="Select Python to paht option" title="Select Python to paht option" align="center" />
     
-
+<br/>
 After that, open the windows terminal terminal and use this code below to download the virtualenv package  
     
    
