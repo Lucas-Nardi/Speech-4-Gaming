@@ -79,6 +79,7 @@ The next step is to activate the virtual enviroment created, to do this use this
 Now, you will se the name (env) before the path name on terminal line.
 
 Finally, we will install all dependencies that the Speech 4 Gaming uses with this code:
+    
 
     pip install -r requirements.txt (Python 2)
 
@@ -168,7 +169,14 @@ Finally, we will install the last package named pyAudio, to do that use this 2 c
     
 ### Mac Os
 
+Download the [python](https://www.python.org/downloads/mac-osx) lastest version , nowadays is 3.9.5. On the python website, click on the download Mac OS X and choose the lastest version as show the image below.
 
+<img src="https://drive.google.com/uc?export=view&id=1VcY2uZzXtDWlPKXQo5LhDh82fqbAw8At" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
+
+On the execution file, click on button add python <version> to path as you can see on this next image.
+    
+    
+    
 ### How to run
 
 If you are on the directory named Speech_4_Gaming just use this code below
