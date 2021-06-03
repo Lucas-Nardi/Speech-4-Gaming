@@ -21,6 +21,7 @@ This software uses the Vosk API to recognition the users'commands voices and wit
     - [Windows](#Windows)
     - [Linux](#Linux)
     - [Mac](#Mac)
+    - [Run and Stop](#run-and-stop)
     
 
 ## How to Install and Run
