@@ -7,7 +7,7 @@ import pyaudio
 from pynput.keyboard import Key, Controller
 import time
 
-if (not os.path.exists("speech_recognition_vosk/model/portugues/model") ):
+if (not os.path.exists("Speech_Recognition/Model/Portugues/model") ):
     print ("Please download the model-long-small from https://alphacephei.com/vosk/models and unpack as 'model-long-small' in the current folder.")
     exit (1)
 
@@ -57,7 +57,7 @@ class Recognition:
 
             commands_file.close()
             recognized_commands = recognized_commands + "pare programa finalizar"
-            model = Model("speech_recognition_vosk/model/portugues/model")
+            model = Model("Speech_Recognition/Model/Portugues/model")
             self.stream = self.p.open(format=pyaudio.paInt16, channels=1, rate=48000, input=True, frames_per_buffer=24000)
             self.stream.start_stream()
             speech = ""

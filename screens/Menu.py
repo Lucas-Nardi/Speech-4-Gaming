@@ -2,8 +2,7 @@ import threading
 
 from PyQt5 import QtCore, QtWidgets
 from PyQt5 import QtGui
-#from Qt_forms.menu_forms2 import Ui_Menu
-from Qt_forms.menu_forms import Ui_Menu
+from qt_forms.menu_forms import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
 
@@ -105,7 +104,7 @@ class Menu_Screen(QtWidgets.QWidget):
         game_name = self.ui.which_game[game_to_delete] # Get the name of the csv file that need to be deleted
 
         self.total_games = self.total_games - 1
-        game_path = "Games/" + game_name
+        game_path = "games/" + game_name
 
         if (os.path.exists(game_path)):
             os.remove(game_path)
@@ -132,7 +131,7 @@ class Menu_Screen(QtWidgets.QWidget):
 
 
             self.playing = True
-            self.stop_playing_icon.addPixmap(QtGui.QPixmap("Images/stop_playing_icon.png"), QtGui.QIcon.Normal)
+            self.stop_playing_icon.addPixmap(QtGui.QPixmap("image/stop_playing_icon.png"), QtGui.QIcon.Normal)
             play_button_component.setIcon(self.stop_playing_icon)
             play_button_component.setIconSize(QtCore.QSize(70, 70))
 
@@ -151,7 +150,7 @@ class Menu_Screen(QtWidgets.QWidget):
             name = game_name.split(".")
 
             self.playing = False
-            self.play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal)
+            self.play_icon.addPixmap(QtGui.QPixmap("image/play_button.png"), QtGui.QIcon.Normal)
             play_button_component.setIcon(self.play_icon)
             play_button_component.setIconSize(QtCore.QSize(50, 50))
             self.recogniton.stop_recognition = True

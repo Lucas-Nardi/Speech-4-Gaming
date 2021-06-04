@@ -1,6 +1,6 @@
 import PyQt5
 from PyQt5 import QtCore, QtWidgets,QtGui
-from Qt_forms.edit_game_forms import Ui_Edit
+from qt_forms.edit_game_forms import Ui_Edit
 import os
 import threading
 import time
@@ -219,10 +219,8 @@ class EditScreen(QtWidgets.QWidget):
 
                 game_name = game_path.split(".")
 
-            game_commands_file_path = "Games/" + self.ui.game_name_area.text() + ".csv"
+            game_commands_file_path = "games/" + self.ui.game_name_area.text() + ".csv"
             game_commands_file = open(game_commands_file_path, "w+")
-
-            print(game_commands_file_path)
 
             for line in self.file_data:
 
@@ -234,13 +232,13 @@ class EditScreen(QtWidgets.QWidget):
 
                 if (os.path.exists(game_commands_file_path) and game_name[0] != self.ui.game_name_area.text()):  # The game name changed
 
-                    original_path = "Games/" + game_path
+                    original_path = "games/" + game_path
                     os.remove(original_path)
 
     def fill_Screen(self, game_path):
 
         game_name = game_path.split(".")
-        game_commands_file_path = "Games/" + game_path
+        game_commands_file_path = "games/" + game_path
         exist_file = os.path.exists(game_commands_file_path)
 
         if (exist_file):

@@ -1,8 +1,8 @@
 import sys
 
-from Screens.Menu import Menu_Screen
-from Screens.Edit_Screem import EditScreen
-from Screens.Instruction_Screen import Instruction_Screen
+from screens.Menu import Menu_Screen
+from screens.Edit_Screem import EditScreen
+from screens.Instruction_Screen import Instruction_Screen
 from PyQt5 import QtWidgets
 import threading
 

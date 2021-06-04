@@ -2,7 +2,7 @@ import threading
 
 from PyQt5 import QtCore, QtWidgets
 from PyQt5 import QtGui
-from Qt_forms.instruction_forms import Ui_Instruction
+from qt_forms.instruction_forms import Ui_Instruction
 import os
 from Speech_Recognition import voskAPI
 

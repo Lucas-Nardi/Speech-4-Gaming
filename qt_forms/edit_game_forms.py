@@ -762,7 +762,7 @@ class Ui_Edit(object):
 "border-color: black;")
         self.key_9_name.setText("")
         self.key_9_name.setTextFormat(QtCore.Qt.PlainText)
-        self.key_9_name.setPixmap(QtGui.QPixmap("Images/espace_Icon.png"))
+        self.key_9_name.setPixmap(QtGui.QPixmap("image/espace_Icon.png"))
         self.key_9_name.setScaledContents(True)
         self.key_9_name.setAlignment(QtCore.Qt.AlignCenter)
         self.key_9_name.setWordWrap(False)
@@ -904,7 +904,7 @@ class Ui_Edit(object):
 "border-color: black;\n"
 "")
         self.key_11_name.setText("")
-        self.key_11_name.setPixmap(QtGui.QPixmap("Images/shitf_icon.png"))
+        self.key_11_name.setPixmap(QtGui.QPixmap("image/shitf_icon.png"))
         self.key_11_name.setScaledContents(True)
         self.key_11_name.setAlignment(QtCore.Qt.AlignCenter)
         self.key_11_name.setObjectName("key_11_name")
@@ -1759,7 +1759,7 @@ class Ui_Edit(object):
 "    border-style: inset;\n"
 "}")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Images/left_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("image/left_arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.menu_button.setIcon(icon)
         self.menu_button.setIconSize(QtCore.QSize(35, 35))
         self.menu_button.setObjectName("menu_button")
