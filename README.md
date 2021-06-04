@@ -19,8 +19,7 @@ This software uses the Vosk API to recognition the users'commands voices and wit
 
 - [How to Install and Run](#how-to-install-and-run)
     - [Windows](#Windows)
-    - [Linux](#Linux)
-    - [Mac](#Mac)
+    - [Linux](#Linux)   
     - [Run and Stop](#run-and-stop)
     
 
@@ -156,63 +155,20 @@ or
     pip3 install -r requirements.txt (Python 3)
     
 
-Finally, we will install the last package named pyAudio, to do that use this 2 codes
+Finally, we will install the last package named pyAudio, to do that use this the first code, if wont work, use the last 2 codes
+    
+    pip3 install PyAudio
     
     pip install pipwin
     
-    pipwin install pyaudio
-    
-### Mac Os
-
-Download the [python](https://www.python.org/downloads/mac-osx) lastest version , nowadays is 3.9.5. On the python website, click on the download Mac OS X and choose the lastest version as show the image below.
-
-<img src="https://drive.google.com/uc?export=view&id=1VcY2uZzXtDWlPKXQo5LhDh82fqbAw8At" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
-
-<br/>
-On the execution file, click on button add python <version> to path as you can see on this next image.
-    
-After that, we will update the pip with this code below
-    
-    pip3 install pip --upgrade
-    
-Then, we need to install a package named virutalenv, to do that use this next code
-    
-    pip install virtualenv
-    
-After the virutalenv installation, we need to download the Speech 4 Gaming softare, to do that use this code      
-    
-    git clone https://github.com/Lucas-Nardi/Speech-4-Gaming.git Speech_4_Gaming           
-    
- When the download finished, go to the directory created with the code below  
- 
-    cd Speech_4_Gaming
-    
- then, use this next code to create a virtual enviroment  
-    
-    virtualenv env
-
-The next step is to activate the virtual enviroment created, to do this use this code below.
-
-    source env/bin/activate
-
-Now, you will see the name (env) before your pc name name on terminal line.
-
-Finally, we will install all dependencies that the Speech 4 Gaming uses with this code:
+    pipwin install pyaudio 
     
 
-    pip install -r requirements.txt (Python 2)
+**Note1:** We need to install this libxc to prevent error
+    
+    sudo apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
 
-or
-
-    pip3 install -r requirements.txt (Python 3)
-    
-
-Finally, we will install the last package named pyAudio, to do that use this 2 codes
-    
-    pip install pipwin
-    
-    pipwin install pyaudio
-    
+   
 ### Run and Stop
     
 To run the Speech 4 Gaming in all 3 SO System use this code below    
