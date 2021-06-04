@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'mainwindow.ui'
+# Form implementation generated from reading ui file 'menu.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.2
 #
@@ -18,8 +18,12 @@ class Ui_Menu(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(885, 667)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        MainWindow.setSizePolicy(sizePolicy)
+        MainWindow.setMaximumSize(QtCore.QSize(885, 667))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setMinimumSize(QtCore.QSize(885, 667))
+        self.centralwidget.setMaximumSize(QtCore.QSize(885, 667))
         self.centralwidget.setStyleSheet("/* VERTIVAL SCROLL BAR*/\n"
 "QScrollBar:vertical{\n"
 "    boder: none;\n"

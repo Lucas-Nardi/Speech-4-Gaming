@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Edit_game2.ui'
+# Form implementation generated from reading ui file 'edit_game.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.2
 #
@@ -17,10 +17,8 @@ class Ui_Edit(object):
         Menu.setWindowModality(QtCore.Qt.ApplicationModal)
         Menu.resize(885, 677)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(Menu.sizePolicy().hasHeightForWidth())
         Menu.setSizePolicy(sizePolicy)
+        Menu.setMaximumSize(QtCore.QSize(885, 667))
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(49)
