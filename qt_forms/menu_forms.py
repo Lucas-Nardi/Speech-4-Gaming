@@ -94,7 +94,7 @@ class Ui_Menu(object):
 "background-color: none;")
         self.instructional_button.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Images/instructional_icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("image/instructional_icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.instructional_button.setIcon(icon)
         self.instructional_button.setIconSize(QtCore.QSize(53, 54))
         self.instructional_button.setDefault(False)
@@ -135,7 +135,7 @@ class Ui_Menu(object):
 "")
         self.add_game_Button.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("Images/add_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("image/add_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.add_game_Button.setIcon(icon1)
         self.add_game_Button.setIconSize(QtCore.QSize(51, 49))
         self.add_game_Button.setDefault(False)
@@ -183,14 +183,14 @@ class Ui_Menu(object):
         self.verticalLayout_2.setObjectName("verticalLayout_2")
 
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("Images/edit_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("image/edit_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("image/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
 
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("Images/delete_icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("image/delete_icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
 
-        games_dir = "./Games/"  # Enter Directory of all images
+        games_dir = "./games/"  # Enter Directory of all images
         i = 0
         _translate = QtCore.QCoreApplication.translate
 
@@ -217,8 +217,7 @@ class Ui_Menu(object):
                         jogo_background.setMinimumSize(QtCore.QSize(655, 67))
                         jogo_background.setMaximumSize(QtCore.QSize(16777215, 90))
                         jogo_background.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-                        jogo_background.setStyleSheet("background-color: rgb(30, 217, 89);\n"
-                                                      "border-radius:15px;")
+                        jogo_background.setStyleSheet("background-color: rgb(30, 217, 89); border-radius: 15px;")
                         jogo_background.setObjectName(name)
                         game_name = QtWidgets.QLabel(jogo_background)
                         game_name.setGeometry(QtCore.QRect(18, 1, 421, 61))

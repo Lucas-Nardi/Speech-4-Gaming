@@ -7,7 +7,7 @@ import pyaudio
 from pynput.keyboard import Key, Controller
 import time
 
-if (not os.path.exists("Speech_Recognition/Model/Portugues/model") ):
+if (not os.path.exists("speech_recognition_vosk/model/portugues/model") ):
     print ("Please download the model-long-small from https://alphacephei.com/vosk/models and unpack as 'model-long-small' in the current folder.")
     exit (1)
 
@@ -23,7 +23,7 @@ class Recognition:
     def voice_commands(self,commands_file_name,buttom_component,menu_class ):
 
         self.stop_recognition = False
-        file_path = "Games/" + commands_file_name
+        file_path = "games/" + commands_file_name
 
         recognized_commands = ""
 
@@ -57,14 +57,14 @@ class Recognition:
 
             commands_file.close()
             recognized_commands = recognized_commands + "pare programa finalizar"
-            model = Model("Speech_Recognition/Model/Portugues/model")
+            model = Model("speech_recognition_vosk/model/portugues/model")
             self.stream = self.p.open(format=pyaudio.paInt16, channels=1, rate=48000, input=True, frames_per_buffer=24000)
             self.stream.start_stream()
             speech = ""
             prev_speech = ""
             new_comand = 0
 
-            recognized_commands = "\"hum " +recognized_commands + " " +" uh\""
+            recognized_commands = "[\"hum " +recognized_commands + " " +" uh\"]"
             print(recognized_commands)
             rec = KaldiRecognizer(model, 48000,recognized_commands)
 
@@ -101,7 +101,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.space)
-                                time.sleep(0.500)
+                                time.sleep(0.200)
                                 self.keyboard.release(Key.space)
                         elif(key == "shift"):
                             if (press_key == "yes"):
@@ -109,7 +109,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.shift)
-                                time.sleep(0.500)
+                                time.sleep(0.200)
                                 self.keyboard.release(Key.shift)
                         elif(key == "ctrl"):
                             if (press_key == "yes"):
@@ -117,7 +117,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.ctrl)
-                                time.sleep(0.500)
+                                time.sleep(0.200)
                                 self.keyboard.release(Key.ctrl)
                         elif(key == "tab"):
                             if (press_key == "yes"):
@@ -125,7 +125,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.tab)
-                                time.sleep(0.500)
+                                time.sleep(0.200)
                                 self.keyboard.release(Key.tab)
 
                         else: # Not special commands
@@ -205,7 +205,7 @@ class Recognition:
         self.unPressKeys(self.pressed_keys_list)
         
         play_icon = QtGui.QIcon()
-        play_icon.addPixmap(QtGui.QPixmap("Images/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        play_icon.addPixmap(QtGui.QPixmap("image/play_button.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         buttom_component.setIcon(play_icon)
         buttom_component.setIconSize(QtCore.QSize(50, 50))
         menu_class.playing = False
