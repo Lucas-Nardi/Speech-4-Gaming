@@ -213,7 +213,7 @@ class Ui_Instruction(object):
         self.verticalLayout_2.addWidget(self.slide1_3)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.menu_button = QtWidgets.QPushButton(Menu)
-        self.menu_button.setGeometry(QtCore.QRect(30, 610, 125, 51))
+        self.menu_button.setGeometry(QtCore.QRect(30, 600, 125, 51))
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(16)
@@ -242,7 +242,7 @@ class Ui_Instruction(object):
 
     def retranslateUi(self, Menu):
         _translate = QtCore.QCoreApplication.translate
-        Menu.setWindowTitle(_translate("Menu", "Menu"))
+        Menu.setWindowTitle(_translate("Menu", "Speech 4 Gaming"))
         self.Title_Screen.setText(_translate("Menu", "Instrução"))
         self.menu_button.setText(_translate("Menu", "  Voltar"))
 

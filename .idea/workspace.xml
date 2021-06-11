@@ -3,69 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26abd52d-da53-4483-8b74-7961e70aea11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/games/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Among_Us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Among_Us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Fall_Guy's.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Fall_Guy's.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Little_Nightmare.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Little_Nightmare.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Sayonara_Wild_Heart.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Sayonara_Wild_Heart.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Super Mario Bros.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Super Mario Bros.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Valorant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Valorant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Instrução_ReconhecimentoDeVoz_Slides.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Instrução_ReconhecimentoDeVoz_Slides.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Instrução_Slide_Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Instrução_Slide_Menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Instrução_Slides_Edit_Screen01.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Instrução_Slides_Edit_Screen01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Instrução_Slides_Edit_Screen02.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Instrução_Slides_Edit_Screen02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/add_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/add_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/delete_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/delete_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/edit_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/edit_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/espace_Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/espace_Icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/instructional_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/instructional_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/left_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/left_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/play_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/play_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/question-mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/question-mark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/shitf_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/shitf_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/stop_playing_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/stop_playing_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/tab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/tab_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/tab_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_forms/edit_game_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_forms/instruction_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/instruction_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_forms/menu_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/menu_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screens/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/screens/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screens/Edit_Screem.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Edit_Screem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screens/Instruction_Screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Instruction_Screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screens/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_4_Gaming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_4_Gaming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/English/model/graph/phones/word_boundary.int" beforeDir="false" afterPath="$PROJECT_DIR$/speech_recognition/model/English/model/graph/phones/word_boundary.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/English/model/ivector/final.ie" beforeDir="false" afterPath="$PROJECT_DIR$/speech_recognition/model/English/model/ivector/final.ie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/Gr.fst" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/Gr.fst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/HCLr.fst" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/HCLr.fst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/README" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/disambig_tid.int" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/disambig_tid.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/final.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/final.mdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/ivector/final.dubm" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/ivector/final.dubm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/ivector/final.ie" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/ivector/final.ie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/ivector/final.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/ivector/final.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/ivector/global_cmvn.stats" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/ivector/global_cmvn.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/ivector/online_cmvn.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/ivector/online_cmvn.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/ivector/splice.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/ivector/splice.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/mfcc.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/mfcc.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/phones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/phones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/Gr.fst" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/Gr.fst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/HCLr.fst" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/HCLr.fst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/README" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/disambig_tid.int" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/disambig_tid.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/final.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/final.mdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/ivector/final.dubm" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/ivector/final.dubm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/ivector/final.ie" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/ivector/final.ie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/ivector/final.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/ivector/final.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/ivector/global_cmvn.stats" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/ivector/global_cmvn.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/ivector/online_cmvn.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/ivector/online_cmvn.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/ivector/splice.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/ivector/splice.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/mfcc.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/mfcc.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/phones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/phones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/vosk-model-small-pt-0.3/word_boundary.int" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/vosk-model-small-pt-0.3/word_boundary.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/Model/Portugues/model/word_boundary.int" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/Model/portugues/model/word_boundary.int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Speech_Recognition/voskAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/voskAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt_forms/instruction_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/instruction_forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TCC" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -252,34 +191,34 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1618939105688" />
-    <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1620859735534">
+    <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1623012866027">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="740" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1620859735534" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1622774340634">
+    <state x="740" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623012866027" />
+    <state width="1899" height="208" key="GridCell.Tab.0.bottom" timestamp="1623371430952">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1622774340634" />
+    <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
     <state width="1899" height="131" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1622774340634">
+    <state width="1899" height="208" key="GridCell.Tab.0.center" timestamp="1623371430952">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1622774340634" />
+    <state width="1899" height="208" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
     <state width="1899" height="131" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1622774340634">
+    <state width="1899" height="208" key="GridCell.Tab.0.left" timestamp="1623371430952">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1622774340634" />
+    <state width="1899" height="208" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
     <state width="1899" height="131" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1622774340634">
+    <state width="1899" height="208" key="GridCell.Tab.0.right" timestamp="1623371430952">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1622774340634" />
+    <state width="1899" height="208" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
     <state width="1899" height="131" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1620853035995">
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1623371039489">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1620853035995" />
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371039489" />
     <state x="604" y="176" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619128895981">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

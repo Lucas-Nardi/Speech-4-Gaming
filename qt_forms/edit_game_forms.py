@@ -1739,7 +1739,7 @@ class Ui_Edit(object):
         self.keep_pressing.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.keep_pressing.setObjectName("keep_pressing")
         self.menu_button = QtWidgets.QPushButton(Menu)
-        self.menu_button.setGeometry(QtCore.QRect(30, 610, 125, 51))
+        self.menu_button.setGeometry(QtCore.QRect(30, 600, 125, 51))
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(16)
@@ -1762,7 +1762,7 @@ class Ui_Edit(object):
         self.menu_button.setIconSize(QtCore.QSize(35, 35))
         self.menu_button.setObjectName("menu_button")
         self.apply_button = QtWidgets.QPushButton(Menu)
-        self.apply_button.setGeometry(QtCore.QRect(740, 610, 125, 51))
+        self.apply_button.setGeometry(QtCore.QRect(740, 600, 125, 51))
         font = QtGui.QFont()
         font.setFamily("Berlin Sans FB")
         font.setPointSize(16)
@@ -1908,7 +1908,7 @@ class Ui_Edit(object):
 
     def retranslateUi(self, Menu):
         _translate = QtCore.QCoreApplication.translate
-        Menu.setWindowTitle(_translate("Menu", "Menu"))
+        Menu.setWindowTitle(_translate("Menu", "Speech 4 Gaming"))
         self.Title_Screen.setText(_translate("Menu", "Configurações de jogo"))
         self.key_1_name.setText(_translate("Menu", "W"))
         self.key_2_name.setText(_translate("Menu", "S"))
