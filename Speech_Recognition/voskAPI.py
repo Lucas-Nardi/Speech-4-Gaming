@@ -29,29 +29,30 @@ class Recognition:
 
         if(os.path.exists(file_path)):
 
-            commands_file = open(file_path,"r")
-            file_data = "-@"
-            commands_file.readline() # Read the name os columns
-            i = 1
-            while(file_data != ""): # Fll the command list
+            with open(file_path, 'r', encoding='iso-8859-1') as commands_file:
 
-                file_data = commands_file.readline()
-                if(file_data != ""):
+                file_data = "-@"
+                commands_file.readline() # Read the name os columns
+                i = 1
+                while(file_data != ""): # Fll the command list
 
-                    commands = file_data.split(",")
-                    command1 = commands[0]
-                    command2 = commands[1]
-                    key = commands[2]
-                    key = key.lower()
-                    need_to_press = commands[3]
-                    need_to_press = need_to_press.split("\n")
+                    file_data = commands_file.readline()
+                    if(file_data != ""):
 
-                    if(command1 != "-"):
-                        recognized_commands = recognized_commands + command1 + " "
-                        self.commands_list_dicionary.__setitem__(command1,[key,need_to_press[0]])
-                    if (command2 != "-"):
-                        recognized_commands = recognized_commands + command2 + " "
-                        self.commands_list_dicionary.__setitem__(command2,[key,need_to_press[0]])
+                        commands = file_data.split(",")
+                        command1 = commands[0]
+                        command2 = commands[1]
+                        key = commands[2]
+                        key = key.lower()
+                        need_to_press = commands[3]
+                        need_to_press = need_to_press.split("\n")
+
+                        if(command1 != "-"):
+                            recognized_commands = recognized_commands + command1 + " "
+                            self.commands_list_dicionary.__setitem__(command1,[key,need_to_press[0]])
+                        if (command2 != "-"):
+                            recognized_commands = recognized_commands + command2 + " "
+                            self.commands_list_dicionary.__setitem__(command2,[key,need_to_press[0]])
 
 
 
@@ -64,8 +65,7 @@ class Recognition:
             prev_speech = ""
             new_comand = 0
 
-            recognized_commands = "[\"hum " +recognized_commands + " " +" uh\"]"
-            print(recognized_commands)
+            recognized_commands = "[\"hum " +recognized_commands +" uh\"]"
             rec = KaldiRecognizer(model, 48000,recognized_commands)
 
             while (not self.stop_recognition):
