@@ -33,9 +33,9 @@ If you wanna have fun and training some terminal code continue the guide, but if
 
 [Speech 4 Gaming Installer](https://mega.nz/file/N3o0xTzL#EUq9911cBzHvxUo-uypAcovDVWXMI_Zd5GdS48axHTA)     :point_left:
 
-Since you choose this way, let's start to code  :keyboard: :heart_eyes::heart_eyes:
+Since you choose this way, let's start to code  :mechanical_arm: :keyboard: :heart_eyes::heart_eyes:
 
-Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the image below.
+Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the image below :point_down:.
 
 <img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
 
@@ -47,7 +47,7 @@ On the execution file, click on button add python <version> to path as you can s
     
 <br/>
     
-After that, open the windows terminal terminal and use this code below to download the virtualenv package  
+After that, open the windows terminal terminal and use this next code to download the virtualenv package  
     
    
 <img src="https://drive.google.com/uc?export=view&id=1S-6H2UWTARSjXJqCaSDEi7rKyT9ZHi3U " alt="Download Python on Windows" title="Download Python on Windows" align="center" />
