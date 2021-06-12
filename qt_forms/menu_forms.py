@@ -21,7 +21,10 @@ class Ui_Menu(object):
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         MainWindow.setSizePolicy(sizePolicy)
         MainWindow.setMaximumSize(QtCore.QSize(885, 667))
+        icon = QtGui.QIcon("Speech_4_Gaming.ico")
+        MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setWindowIcon(QtGui.QIcon('Speech_4_Gaming.ico'))
         self.centralwidget.setMinimumSize(QtCore.QSize(885, 667))
         self.centralwidget.setMaximumSize(QtCore.QSize(885, 667))
         self.centralwidget.setStyleSheet("/* VERTIVAL SCROLL BAR*/\n"
@@ -92,10 +95,7 @@ class Ui_Menu(object):
         self.centralwidget.setObjectName("centralwidget")
         self.instructional_button = QtWidgets.QPushButton(self.centralwidget)
         self.instructional_button.setGeometry(QtCore.QRect(791, 80, 61, 51))
-        self.instructional_button.setStyleSheet("border:none;\n"
-"border-width:0px;\n"
-"\n"
-"background-color: none;")
+        self.instructional_button.setStyleSheet("border:none;background-color: none;")
         self.instructional_button.setText("")
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("image/instructional_icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -110,7 +110,7 @@ class Ui_Menu(object):
         font.setFamily("Berlin Sans FB")
         font.setPointSize(23)
         self.games_number.setFont(font)
-        self.games_number.setStyleSheet("background-color: None;\n"
+        self.games_number.setStyleSheet("background-color: none;\n"
 "color: rgb(255, 255, 255);")
         self.games_number.setObjectName("games_number")
         self.Title_Software = QtWidgets.QLabel(self.centralwidget)
@@ -132,9 +132,8 @@ class Ui_Menu(object):
         self.add_game_Button = QtWidgets.QPushButton(self.centralwidget)
         self.add_game_Button.setGeometry(QtCore.QRect(41, 80, 61, 51))
         self.add_game_Button.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.add_game_Button.setStyleSheet("background-color: None;\n"
+        self.add_game_Button.setStyleSheet("background-color: none;\n"
 "border:none;\n"
-"border-width:0px;\n"
 "\n"
 "")
         self.add_game_Button.setText("")
@@ -219,7 +218,7 @@ class Ui_Menu(object):
                         sizePolicy.setHeightForWidth(jogo_background.sizePolicy().hasHeightForWidth())
                         jogo_background.setSizePolicy(sizePolicy)
                         jogo_background.setMinimumSize(QtCore.QSize(655, 67))
-                        jogo_background.setMaximumSize(QtCore.QSize(16777215, 90))
+                        jogo_background.setMaximumSize(QtCore.QSize(655, 90))
                         jogo_background.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
                         jogo_background.setStyleSheet("background-color: rgb(30, 217, 89); border-radius: 15px;")
                         jogo_background.setObjectName(name)
@@ -237,7 +236,7 @@ class Ui_Menu(object):
                         font.setPointSize(32)
                         game_name.setFont(font)
                         game_name.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-                        game_name.setStyleSheet("color: rgb(255, 255, 255);")
+                        game_name.setStyleSheet("color: rgb(255, 255, 255); background-color: transparent")
                         game_name.setObjectName(name1)
                         game_name.setText(_translate("Menu", game_name_writting[0]))
 
@@ -248,6 +247,7 @@ class Ui_Menu(object):
                         delete_button.setIcon(icon4)
                         delete_button.setIconSize(QtCore.QSize(50, 50))
                         delete_button.setObjectName(name4)
+                        delete_button.setStyleSheet("background-color: transparent")
 
                         edit_button = QtWidgets.QPushButton(jogo_background)
                         edit_button.setGeometry(QtCore.QRect(528, 8, 51, 51))
@@ -256,6 +256,8 @@ class Ui_Menu(object):
                         edit_button.setIcon(icon1)
                         edit_button.setIconSize(QtCore.QSize(50, 50))
                         edit_button.setObjectName(name2)
+                        edit_button.setStyleSheet("background-color: transparent")
+
 
                         play_button = QtWidgets.QPushButton(jogo_background)
                         play_button.setGeometry(QtCore.QRect(588, 11, 51, 51))
@@ -264,6 +266,7 @@ class Ui_Menu(object):
                         play_button.setIcon(icon2)
                         play_button.setIconSize(QtCore.QSize(50, 50))
                         play_button.setObjectName(name3)
+                        play_button.setStyleSheet("background-color: transparent")
 
                         self.verticalLayout_2.addWidget(jogo_background)
                         i = i + 1
