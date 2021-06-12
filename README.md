@@ -29,10 +29,9 @@ This document is for the Speech 4 Gaming beta test
 
 ### Windows
 
+If you wanna have fun and training some terminal code continue the guide, but if you want to use the faster way use this link below.
 
-IF you wanna have fun and training some terminal code continue the guide but if you want to use the faster way, use this link below.
-
-[Speech 4 Gaming Installer](https://mega.nz/file/N3o0xTzL#EUq9911cBzHvxUo-uypAcovDVWXMI_Zd5GdS48axHTA)
+[Speech 4 Gaming Installer](https://mega.nz/file/N3o0xTzL#EUq9911cBzHvxUo-uypAcovDVWXMI_Zd5GdS48axHTA)     :point_left:
 
 Since you choose this way, let's start to code  :keyboard: :heart_eyes::heart_eyes:
 
@@ -57,7 +56,7 @@ After that, open the windows terminal terminal and use this code below to downlo
     python pip install virtualenv
     
 
-If you having trouble on the installation, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
+If you having trouble on the installation :pray:, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
 
 Then, choose the directory that you want to put the Speech 4 Gaming Project and open it on the terminal to clone the project with this code below 
     
