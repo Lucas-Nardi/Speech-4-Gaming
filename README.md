@@ -29,6 +29,13 @@ This document is for the Speech 4 Gaming beta test
 
 ### Windows
 
+
+IF you wanna have fun and training some terminal code continue the guide but if you want to use the faster way, use this link below.
+
+[Speech 4 Gaming Installer](https://mega.nz/file/N3o0xTzL#EUq9911cBzHvxUo-uypAcovDVWXMI_Zd5GdS48axHTA)
+
+Since you choose this way, let's start to code  :keyboard: :heart_eyes::heart_eyes:
+
 Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the image below.
 
 <img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
