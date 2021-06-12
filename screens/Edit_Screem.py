@@ -2,8 +2,6 @@ import PyQt5
 from PyQt5 import QtCore, QtWidgets,QtGui
 from qt_forms.edit_game_forms import Ui_Edit
 import os
-import threading
-import time
 
 class EditScreen(QtWidgets.QWidget):
 
@@ -72,8 +70,6 @@ class EditScreen(QtWidgets.QWidget):
 
             com = errors.pop(0)
             self.ui.verticalLayout_2.removeWidget(com)
-
-
 
         file_data = "Command 1,Command 2,key,Press key\n"
         self.file_data.append(file_data)
@@ -220,11 +216,12 @@ class EditScreen(QtWidgets.QWidget):
                 game_name = game_path.split(".")
 
             game_commands_file_path = "games/" + self.ui.game_name_area.text() + ".csv"
-            game_commands_file = open(game_commands_file_path, "w+")
 
-            for line in self.file_data:
+            with open(game_commands_file_path, "w+", encoding='iso-8859-1') as game_commands_file:
 
-                game_commands_file.write(line)
+                for line in self.file_data:
+
+                    game_commands_file.write(line)
 
             game_commands_file.close()
 
@@ -244,39 +241,36 @@ class EditScreen(QtWidgets.QWidget):
         if (exist_file):
             _translate = QtCore.QCoreApplication.translate
             self.ui.game_name_area.setText(_translate("Menu", game_name[0]))
+            with open(game_commands_file_path, 'r', encoding='iso-8859-1') as game_commands_file:
 
-            game_commands_file = open(game_commands_file_path, "r")
-            data = game_commands_file.readline()  # read the columns names
+                data = game_commands_file.readline()  # read the columns names
 
-        for QtWidgets in self.ui.scrollAreaWidgetContents.children():
+                for QtWidgets in self.ui.scrollAreaWidgetContents.children():
 
-            children = QtWidgets.children()
+                    children = QtWidgets.children()
 
-            if (len(QtWidgets.children()) > 0):
+                    if (len(QtWidgets.children()) > 0):
 
-                commands_ui = children[0]
-                check_box_ui = children[2]
+                        commands_ui = children[0]
+                        check_box_ui = children[2]
+                        commands = game_commands_file.readline()
+                        data = commands.split(",")
+                        command1 = data[0]
+                        command2 = data[1]
+                        check_box = data[3]
+                        command = ""
 
-                commands = game_commands_file.readline()
+                        if (command1 != "-" and command2 != "-"):
+                            command = command1 + "/" + command2
+                        elif (command1 != "-" and command2 == "-"):
+                            command = command1
+                        elif (command1 == "-" and command2 != "-"):
+                            command = command2
 
-                data = commands.split(",")
-                command1 = data[0]
-                command2 = data[1]
-                check_box = data[3]
+                        commands_ui.setText(_translate("Menu", command))
 
-                command = ""
-
-                if (command1 != "-" and command2 != "-"):
-                    command = command1 + "/" + command2
-                elif (command1 != "-" and command2 == "-"):
-                    command = command1
-                elif (command1 == "-" and command2 != "-"):
-                    command = command2
-
-                commands_ui.setText(_translate("Menu", command))
-
-                if (check_box == "yes\n" or check_box == "yes"):
-                    check_box_ui.setChecked(True)
+                        if (check_box == "yes\n" or check_box == "yes"):
+                            check_box_ui.setChecked(True)
 
         game_commands_file.close()
 

@@ -6,7 +6,6 @@ from qt_forms.menu_forms import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
 
-
 class Menu_Screen(QtWidgets.QWidget):
 
     go_to_Edit = QtCore.pyqtSignal()
@@ -25,7 +24,6 @@ class Menu_Screen(QtWidgets.QWidget):
         super().__init__()
         self.ui = Ui_Menu()
         self.ui.setupUi(self)
-
         # Take each button that is on scrollArea and add click function
 
         i = 0
