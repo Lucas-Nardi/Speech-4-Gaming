@@ -25,6 +25,8 @@ class Ui_Instruction(object):
         Menu.setFont(font)
         Menu.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         Menu.setAutoFillBackground(False)
+        icon = QtGui.QIcon("Speech_4_Gaming.ico")
+        Menu.setWindowIcon(icon)
         Menu.setStyleSheet("QWidget {    \n"
 "\n"
 "    \n"
