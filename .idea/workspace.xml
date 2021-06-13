@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="26abd52d-da53-4483-8b74-7961e70aea11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qt_forms/instruction_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/instruction_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Speech_4_Gaming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_4_Gaming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ui_files/menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Ui_files/menu.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/Fall_Guy's.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Fall_Guy's.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/Sayonara_Wild_Heart.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/Super Mario Bros.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Super Mario Bros.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Edit_Screem.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Edit_Screem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +36,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TCC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Documents\Qt Creator\Speech_4_Play" />
       <recent name="C:\Users\Pichau\Documents\Qt Creator\Speech_4_Play\Screens" />
       <recent name="C:\Users\Pichau\Documents\Qt Creator\Speech_4_Play\Ui files" />
       <recent name="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\Games" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Documents\Qt Creator\Speech_4_Gaming\image" />
       <recent name="C:\Users\Pichau\Documents\Qt Creator\Speech_4_Play\Qt_forms" />
       <recent name="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\Qt_forms" />
       <recent name="C:\Users\Pichau\Documents\QtCreator\Speech_4_Play\Ui files to py files" />
@@ -59,27 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../TCC/Comparacao_Audio_Unico_Gravado_Portugues.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Speech_4_Gaming (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Speech_4_Play" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Speech/Speech-4-Gaming" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Speech/Speech-4-Gaming/Speech_4_Gaming.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,6 +116,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="edit_game_forms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Speech_4_Play" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qt_forms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qt_forms/edit_game_forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="voskAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Speech_4_Play" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Speech_4_Gaming (2)" />
+        <item itemvalue="Python.edit_game_forms" />
         <item itemvalue="Python.Comparacao_Audio_Unico_Gravado_Portugues" />
         <item itemvalue="Python.Speech_4_Gaming" />
         <item itemvalue="Python.voskAPI" />
-        <item itemvalue="Python.Speech_4_Gaming (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -187,38 +194,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618939105688">
+    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623454175970">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1618939105688" />
-    <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1623012866027">
+    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623454175970" />
+    <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1623372162014">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="740" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623012866027" />
-    <state width="1899" height="208" key="GridCell.Tab.0.bottom" timestamp="1623371430952">
+    <state x="740" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623372162014" />
+    <state width="1899" height="450" key="GridCell.Tab.0.bottom" timestamp="1623467871871">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
+    <state width="1899" height="450" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623467871871" />
     <state width="1899" height="131" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1899" height="208" key="GridCell.Tab.0.center" timestamp="1623371430952">
+    <state width="1899" height="450" key="GridCell.Tab.0.center" timestamp="1623467871871">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
+    <state width="1899" height="450" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623467871871" />
     <state width="1899" height="131" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1899" height="208" key="GridCell.Tab.0.left" timestamp="1623371430952">
+    <state width="1899" height="450" key="GridCell.Tab.0.left" timestamp="1623467871871">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
+    <state width="1899" height="450" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623467871871" />
     <state width="1899" height="131" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1899" height="208" key="GridCell.Tab.0.right" timestamp="1623371430952">
+    <state width="1899" height="450" key="GridCell.Tab.0.right" timestamp="1623467871871">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371430952" />
+    <state width="1899" height="450" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623467871871" />
     <state width="1899" height="131" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1623371039489">
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1623459856827">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623371039489" />
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623459856827" />
     <state x="604" y="176" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619128895981">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -227,5 +234,16 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="623" y="265" width="670" height="58" key="search.everywhere.popup/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619185010184" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Program Files/Python38/Lib/site-packages/pynput/keyboard/__init__.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

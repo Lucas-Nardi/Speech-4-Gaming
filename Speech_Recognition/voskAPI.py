@@ -109,7 +109,8 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.shift)
-                                time.sleep(0.300)
+                                time.sleep(0.400)
+
                                 self.keyboard.release(Key.shift)
                         elif (key == "ctrl"):
                             if (press_key == "yes"):
@@ -117,7 +118,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.ctrl)
-                                time.sleep(0.300)
+                                time.sleep(0.400)
                                 self.keyboard.release(Key.ctrl)
                         elif (key == "tab"):
                             if (press_key == "yes"):
@@ -125,7 +126,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(Key.tab)
-                                time.sleep(0.300)
+                                time.sleep(0.400)
                                 self.keyboard.release(Key.tab)
 
                         else:  # Not special commands
@@ -163,7 +164,7 @@ class Recognition:
                                 self.pressed_keys_list.append(key)
                             else:
                                 self.keyboard.press(key)
-                                time.sleep(0.200)
+                                time.sleep(0.400)
                                 self.keyboard.release(key)
 
                         new_comand = len(phrase)

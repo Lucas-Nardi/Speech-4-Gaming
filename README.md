@@ -29,7 +29,13 @@ This document is for the Speech 4 Gaming beta test
 
 ### Windows
 
-Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the image below.
+If you wanna have fun and training some terminal code continue the guide, but if you want to use the faster way use this link below.
+
+[Speech 4 Gaming Installer](https://mega.nz/file/AzJAkRAK#HWxT_yBcHfYzucbj0qZO6p13m2baFWJnX3W-NRoVw8c)     :point_left:
+
+Since you choose this way, let's start to code  :mechanical_arm: :keyboard: :heart_eyes::heart_eyes:
+
+Download the [python](https://www.python.org/downloads/windows/) lastest version , nowadays is 3.9.5. On the python website, click on the latest version button as show the image below :point_down:.
 
 <img src="https://drive.google.com/uc?export=view&id=1RK1VWZ2X8f5y0jPsmbduLkvHX8CiKKqP" alt="Download Python on Windows" title="Download Python on Windows" align="center"  />
 
@@ -41,7 +47,7 @@ On the execution file, click on button add python <version> to path as you can s
     
 <br/>
     
-After that, open the windows terminal terminal and use this code below to download the virtualenv package  
+After that, open the windows terminal terminal and use this next code to download the virtualenv package  
     
    
 <img src="https://drive.google.com/uc?export=view&id=1S-6H2UWTARSjXJqCaSDEi7rKyT9ZHi3U " alt="Download Python on Windows" title="Download Python on Windows" align="center" />
@@ -50,7 +56,7 @@ After that, open the windows terminal terminal and use this code below to downlo
     python pip install virtualenv
     
 
-If you having trouble on the installation, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
+If you having trouble on the installation :pray:, please go to the virtualenv [website](https://virtualenv.pypa.io/en/latest/installation.html).
 
 Then, choose the directory that you want to put the Speech 4 Gaming Project and open it on the terminal to clone the project with this code below 
     

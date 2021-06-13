@@ -24,7 +24,6 @@ class Menu_Screen(QtWidgets.QWidget):
         super().__init__()
         self.ui = Ui_Menu()
         self.ui.setupUi(self)
-
         # Take each button that is on scrollArea and add click function
 
         i = 0
