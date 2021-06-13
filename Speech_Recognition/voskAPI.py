@@ -1,6 +1,5 @@
 from PyQt5 import QtGui, QtCore
 from vosk import Model, KaldiRecognizer
-import threading
 import os
 import json
 import pyaudio
@@ -110,7 +109,6 @@ class Recognition:
                             else:
                                 self.keyboard.press(Key.shift)
                                 time.sleep(0.400)
-
                                 self.keyboard.release(Key.shift)
                         elif (key == "ctrl"):
                             if (press_key == "yes"):
@@ -135,28 +133,24 @@ class Recognition:
                                 if (key == "a"):
 
                                     if ("d" in self.pressed_keys_list):
-                                        print("Liberando d")
                                         self.keyboard.release("d")
                                         self.pressed_keys_list.remove("d")
 
                                 if (key == "d"):
 
                                     if ("a" in self.pressed_keys_list):
-                                        print("Liberando a")
                                         self.keyboard.release("a")
                                         self.pressed_keys_list.remove("a")
 
                                 if (key == "w"):
 
                                     if ("s" in self.pressed_keys_list):
-                                        print("Liberando s")
                                         self.keyboard.release("s")
                                         self.pressed_keys_list.remove("s")
 
                                 if (key == "s"):
 
                                     if ("w" in self.pressed_keys_list):
-                                        print("Liberando w")
                                         self.keyboard.release("w")
                                         self.pressed_keys_list.remove("w")
 
