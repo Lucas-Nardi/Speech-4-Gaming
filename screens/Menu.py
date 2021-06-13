@@ -6,7 +6,6 @@ from qt_forms.menu_forms import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
 
-
 class Menu_Screen(QtWidgets.QWidget):
 
     go_to_Edit = QtCore.pyqtSignal()
@@ -35,7 +34,6 @@ class Menu_Screen(QtWidgets.QWidget):
 
             children = QtWidgets.children()
 
-
             if (len(QtWidgets.children()) > 0):
 
 
@@ -49,7 +47,7 @@ class Menu_Screen(QtWidgets.QWidget):
 
                     delete_button.clicked.connect(lambda: self.delete_game(0, self.components_to_delete[0]))
                     edit_button.clicked.connect(lambda: self.edit(0))
-                    play_button.clicked.connect(lambda: self.play(0,self.play_button_component[0]) )
+                    play_button.clicked.connect(lambda: self.play(0,self.play_button_component[0]))
                 elif (i == 1):
                     delete_button.clicked.connect(lambda: self.delete_game(1,self.components_to_delete[1]))
                     edit_button.clicked.connect(lambda: self.edit(1))
@@ -96,25 +94,31 @@ class Menu_Screen(QtWidgets.QWidget):
     def new_game(self,new_game):
         if(self.total_games <10):
             self.which_game_i_will_use = new_game
+            self.components_to_delete.clear()
+            self.play_button_component.clear()
             self.go_to_Edit.emit()
 
     def delete_game(self,game_to_delete,component):
 
-        _translate = QtCore.QCoreApplication.translate
-        game_name = self.ui.which_game[game_to_delete] # Get the name of the csv file that need to be deleted
+        print(len(self.ui.scrollAreaWidgetContents.children()))
+        if(len(self.ui.scrollAreaWidgetContents.children()) > 0):
 
-        self.total_games = self.total_games - 1
-        game_path = "games/" + game_name
 
-        if (os.path.exists(game_path)):
-            os.remove(game_path)
+            _translate = QtCore.QCoreApplication.translate
+            game_name = self.ui.which_game[game_to_delete] # Get the name of the csv file that need to be deleted
 
-        self.ui.verticalLayout_2.removeWidget(component)
-        game_count = str(self.total_games) + "/10"
-        self.ui.games_number.setText(_translate("MainWindow", game_count))
+            self.total_games = self.total_games - 1
+            game_path = "games/" + game_name
 
-        if(self.total_games == 0):
-            self.ui.which_game.clear()
+            if (os.path.exists(game_path)):
+                os.remove(game_path)
+
+            self.ui.verticalLayout_2.removeWidget(component)
+            game_count = str(self.total_games) + "/10"
+            self.ui.games_number.setText(_translate("MainWindow", game_count))
+
+            if(self.total_games == 0):
+                self.ui.which_game.clear()
 
     def edit(self,which_game="New Game"):
 
@@ -123,6 +127,8 @@ class Menu_Screen(QtWidgets.QWidget):
             game_name = self.ui.which_game[which_game]
             self.which_game_i_will_use = game_name
 
+        self.components_to_delete.clear()
+        self.play_button_component.clear()
         self.go_to_Edit.emit()
 
     def play(self,which_game,play_button_component):
@@ -155,5 +161,13 @@ class Menu_Screen(QtWidgets.QWidget):
             play_button_component.setIconSize(QtCore.QSize(50, 50))
             self.recogniton.stop_recognition = True
 
-    def instructional(self):        
+    def instructional(self):
+
+        self.components_to_delete.clear()
+        self.play_button_component.clear()
         self.go_to_Instruction.emit()
+
+    def closeEvent(self, event):
+        if(self.recogniton.stop_recognition == False):
+            self.recogniton.stop_recognition = True
+        event.accept()
