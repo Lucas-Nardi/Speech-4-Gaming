@@ -17,7 +17,7 @@ class Menu_Screen(QtWidgets.QWidget):
     playing = False                   # See the state of the play button
     play_icon = QtGui.QIcon()         # Create a icon for play_button on state not playing
     stop_playing_icon = QtGui.QIcon() # Create a icon for play_button on state playing
-    recogniton = voskAPI.Recognition() # Initialize speech recognition service
+    recogniton = voskAPI.Recognition(16000, 8000) # Initialize speech recognition service
 
     def __init__(self):
         # call QWidget constructor
@@ -152,8 +152,6 @@ class Menu_Screen(QtWidgets.QWidget):
         else: # I need to stop the recognition and change the Icon
 
             game_name = self.ui.which_game[which_game]
-            name = game_name.split(".")
-
             self.playing = False
             self.play_icon.addPixmap(QtGui.QPixmap("image/play_button.png"), QtGui.QIcon.Normal)
             play_button_component.setIcon(self.play_icon)
