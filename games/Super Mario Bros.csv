@@ -1,13 +1,13 @@
 Command 1,Command 2,key,Press key
 -,-,W,no
 agache,-,S,yes
-esquerda,-,A,yes
+esquerda,volte,A,yes
 direita,corra,D,yes
 -,-,Q,no
 -,-,E,no
 -,-,R,no
 -,-,T,no
-pule,espaco,Space,no
+pule,espaço,Space,no
 -,-,Ctrl,no
 atire,-,Shift,no
 -,-,Tab,no

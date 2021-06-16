@@ -1,15 +1,15 @@
 Command 1,Command 2,key,Press key
-frente,corra,W,yes
-volte,atras,S,yes
+frente,-,W,yes
+volte,agache,S,yes
 esquerda,-,A,yes
-direita,-,D,yes
+direita,corra,D,yes
 -,-,Q,no
 -,-,E,no
 -,-,R,no
 -,-,T,no
-pule,espaco,Space,no
+pule,espaço,Space,no
 mergulho,-,Ctrl,no
-agarrar,-,Shift,no
+fogo,atire,Shift,no
 -,-,Tab,no
 -,-,Z,no
 -,-,X,no
