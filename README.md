@@ -31,7 +31,7 @@ This document is for the Speech 4 Gaming beta test
 
 If you wanna have fun and training some terminal code continue the guide, but if you want to use the faster way use this link below.
 
-[Speech 4 Gaming Installer](https://mega.nz/file/1jpnWKCL#AQJNFd9ABQiqKp-7d37l9yhoCVkLLSNGuz_hJJVRT_I)     :point_left:
+[Speech 4 Gaming Installer](https://mega.nz/file/Q7ZhHCpI#zCwu2CPxOajw1iEJngRAv5Yw0n_cUdpLH2Xs06HSd_Y)     :point_left:
 
 Since you choose this way, let's start to code  :mechanical_arm: :keyboard: :heart_eyes::heart_eyes:
 
