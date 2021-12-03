@@ -1,15 +1,14 @@
 import threading
 
-from PyQt5 import QtCore, QtWidgets
-from PyQt5 import QtGui
+from PySide6 import (QtCore, QtWidgets, QtGui)
 from qt_forms.menu_forms import Ui_Menu
 import os
 from Speech_Recognition import voskAPI
 
 class Menu_Screen(QtWidgets.QWidget):
 
-    go_to_Edit = QtCore.pyqtSignal()
-    go_to_Instruction = QtCore.pyqtSignal()
+    go_to_Edit = QtCore.Signal()
+    go_to_Instruction = QtCore.Signal()
     which_game_i_will_use = None     # Variable that save which game i will use on edit screen
     total_games = 0                   # Mark the number of games that i register right now
     components_to_delete = list()     # mapping which game need to be delete after a certain delete button is clicked
@@ -23,6 +22,7 @@ class Menu_Screen(QtWidgets.QWidget):
         # call QWidget constructor
         super().__init__()
         self.ui = Ui_Menu()
+        print(self.ui)
         self.ui.setupUi(self)
         # Take each button that is on scrollArea and add click function
 

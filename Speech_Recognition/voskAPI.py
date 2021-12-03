@@ -1,4 +1,4 @@
-from PyQt5 import QtGui, QtCore
+from PySide6 import (QtCore, QtGui)
 from vosk import Model, KaldiRecognizer
 import os
 import json

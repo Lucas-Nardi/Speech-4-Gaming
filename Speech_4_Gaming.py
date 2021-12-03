@@ -3,7 +3,7 @@ import sys
 from screens.Menu import Menu_Screen
 from screens.Edit_Screem import EditScreen
 from screens.Instruction_Screen import Instruction_Screen
-from PyQt5 import QtWidgets
+from PySide6 import (QtWidgets)
 import threading
 
 

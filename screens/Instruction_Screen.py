@@ -1,15 +1,11 @@
 import threading
 
-from PyQt5 import QtCore, QtWidgets
-from PyQt5 import QtGui
+from PySide6 import QtCore, QtWidgets
 from qt_forms.instruction_forms import Ui_Instruction
-import os
-from Speech_Recognition import voskAPI
-
 
 class Instruction_Screen(QtWidgets.QWidget):
 
-    go_to_Menu = QtCore.pyqtSignal()
+    go_to_Menu = QtCore.Signal()
 
     def __init__(self):
         # call QWidget constructor

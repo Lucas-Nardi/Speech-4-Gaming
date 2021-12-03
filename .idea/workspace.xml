@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26abd52d-da53-4483-8b74-7961e70aea11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Speech_4_Play.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Speech_4_Play.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Speech_4_Gaming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_4_Gaming.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Speech_Recognition/voskAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Speech_Recognition/voskAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/Fall_Guy's.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Fall_Guy's.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/Sayonara_Wild_Hearts.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/Super Mario Bros.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Super Mario Bros.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/Among_Us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/games/Among_Us.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/Valorant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/edit_game_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt_forms/instruction_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/instruction_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt_forms/menu_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/qt_forms/menu_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Edit_Screem.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Edit_Screem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Instruction_Screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Instruction_Screen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +36,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TCC/voskAPI.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -179,6 +187,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,57 +201,11 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623454175970">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="724" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623454175970" />
-    <state x="679" y="187" key="#voskAPI_(1)" timestamp="1623805996581">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="679" y="187" key="#voskAPI_(1)/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623805996581" />
-    <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1623805099291">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="740" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623805099291" />
-    <state width="1877" height="429" key="GridCell.Tab.0.bottom" timestamp="1623812397698">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="429" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623812397698" />
-    <state width="1899" height="131" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1877" height="429" key="GridCell.Tab.0.center" timestamp="1623812397698">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="429" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623812397698" />
-    <state width="1899" height="131" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1877" height="429" key="GridCell.Tab.0.left" timestamp="1623812397698">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="429" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623812397698" />
-    <state width="1899" height="131" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state width="1877" height="429" key="GridCell.Tab.0.right" timestamp="1623812397698">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="429" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623812397698" />
-    <state width="1899" height="131" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1619371916174" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1623804011833">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1623804011833" />
-    <state x="604" y="176" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619128895981">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="604" y="176" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619128895981" />
-    <state x="623" y="265" width="670" height="58" key="search.everywhere.popup" timestamp="1619185010184">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="623" y="265" width="670" height="58" key="search.everywhere.popup/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1619185010184" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/Program Files/Python38/Lib/site-packages/pynput/keyboard/__init__.py</url>
+          <url>file://$PROJECT_DIR$/../../../../../Program Files/Python38/Lib/site-packages/pynput/keyboard/__init__.py</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

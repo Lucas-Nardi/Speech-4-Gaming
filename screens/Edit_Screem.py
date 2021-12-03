@@ -1,11 +1,11 @@
-import PyQt5
-from PyQt5 import QtCore, QtWidgets,QtGui
+from PySide6 import QtCore,QtGui
 from qt_forms.edit_game_forms import Ui_Edit
+from PySide6.QtWidgets import (QWidget,QLabel,QSizePolicy)
 import os
 
-class EditScreen(QtWidgets.QWidget):
+class EditScreen(QWidget):
 
-    go_to_Menu = QtCore.pyqtSignal()
+    go_to_Menu = QtCore.Signal()
     file_data = []
     repeated_commands = None
 
@@ -32,9 +32,9 @@ class EditScreen(QtWidgets.QWidget):
 
         _translate = QtCore.QCoreApplication.translate
 
-        error_warning = QtWidgets.QLabel(self.ui.scrollAreaWidgetContents2)
+        error_warning = QLabel(self.ui.scrollAreaWidgetContents2)
         error_warning.setEnabled(False)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(error_warning.sizePolicy().hasHeightForWidth())
@@ -45,7 +45,7 @@ class EditScreen(QtWidgets.QWidget):
         font.setPointSize(17)
         font.setBold(False)
         font.setUnderline(False)
-        font.setWeight(50)
+        font.setWeight(QtGui.QFont.Weight.Light)
         error_warning.setFont(font)
         error_warning.setMouseTracking(False)
         error_warning.setStyleSheet("background-color: rgb(255, 55, 48);\n" "color: rgb(255, 255, 255);")
@@ -61,15 +61,11 @@ class EditScreen(QtWidgets.QWidget):
 
         errors = list()
 
-        for QtWidgets in self.ui.scrollAreaWidgetContents2.children():
+        for QtWidgets in self.ui.scrollAreaWidgetContents2.children():  # Clean the duplicated commands, because if the error persist we will add it again
 
-            if(type(QtWidgets) == PyQt5.QtWidgets.QLabel):
+            if(type(QtWidgets) == QLabel):
                 errors.append(QtWidgets)
-
-        for x in range(len(errors)):
-
-            com = errors.pop(0)
-            self.ui.verticalLayout_2.removeWidget(com)
+                self.ui.verticalLayout_4.removeWidget(QtWidgets)
 
         file_data = "Command 1,Command 2,key,Press key\n"
         self.file_data.append(file_data)
@@ -93,7 +89,13 @@ class EditScreen(QtWidgets.QWidget):
                 commands = str(commands)
                 commands = commands.lower()
 
-                if (commands.find("/") != -1):  # Has more the one command
+                if(commands == ""): # Dont have any command , so me need to clear if the command is marked as a repeated command
+
+                    self.repeated_commands[which_command_im_in] = False
+                    commands_ui.setStyleSheet(
+                        'background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: solid; border-width: 2px; border-color: black;')
+
+                elif (commands.find("/") != -1):  # Has more the one command
 
                     commad = commands.split("/")
 
@@ -107,7 +109,7 @@ class EditScreen(QtWidgets.QWidget):
                             self.repeated_commands[which_command_im_in] = False
                             commands_ui.setStyleSheet('background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: solid; border-width: 2px; border-color: black;')
 
-                    else: # command 1 already exist
+                    else:  # command 1 already exist
 
                         file_data = commad[0] + ","
                         commands_ui.setStyleSheet('background-color: rgb(255, 55, 48); color: rgb(0, 0, 0); border-style: solid; border-width: 2px; border-color: black;')
@@ -131,7 +133,7 @@ class EditScreen(QtWidgets.QWidget):
                             self.repeated_commands[which_command_im_in] = False
                             commands_ui.setStyleSheet('background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: solid; border-width: 2px; border-color: black;')
 
-                    else: # command 2 already exist
+                    else:  # command 2 already exist
 
                         if (which_command_im_in == 9):  # Space key
                             file_data = file_data + commad[1] + ",Space,"
@@ -145,7 +147,7 @@ class EditScreen(QtWidgets.QWidget):
                         self.repeated_commands[which_command_im_in] = True
                         self.error_message(commad[1])
 
-                else: # There is only 1 command
+                else:  # There is only 1 command
 
                     if (len(commands) > 0 and not commands.isspace()):  # This command is not a space character
 
@@ -165,7 +167,7 @@ class EditScreen(QtWidgets.QWidget):
                                 self.repeated_commands[which_command_im_in] = False
                                 commands_ui.setStyleSheet('background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-style: solid; border-width: 2px; border-color: black;')
 
-                        else: # This command already exist
+                        else:  # This command already exist
 
                             if (which_command_im_in == 9):  # Space key
                                 file_data = commands + ",-,Space,"
@@ -178,7 +180,7 @@ class EditScreen(QtWidgets.QWidget):
                             self.repeated_commands[which_command_im_in] = True
                             self.error_message(commands)
 
-                    else: # This command is a space character
+                    else:  # This command is a space character
 
                         if (which_command_im_in == 9):  # Space key
                             file_data = "-,-," + "Space,"
